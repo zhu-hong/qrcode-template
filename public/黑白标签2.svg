@@ -1,0 +1,54 @@
+<!-- 无logo 有副标题 4字段 -->
+<svg width="100%" height="100%" viewBox="0 0 600 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <rect fill="#FFFFFF" x="0" y="0" width="600" height="400"></rect>
+    <text font-family="PingFangSC-Regular, PingFang SC" font-size="32" font-weight="normal" fill="#000000">
+      <tspan x="39" y="49" data-type="title" data-len="15"></tspan>
+    </text>
+    <text font-family="PingFangSC-Regular, PingFang SC" font-size="26" font-weight="normal" fill="#000000">
+      <tspan x="39" y="96" data-type="subTitle" data-len="20"></tspan>
+    </text>
+    <g transform="translate(252.000000, 160.000000)" fill="#000000" font-family="PingFangSC-Regular, PingFang SC" font-size="24" font-weight="normal">
+      
+      <!-- 1个字段 -->
+      <text>
+        <tspan data-type="field" data-count="1" data-len="12" x="0.5" y="85"></tspan>
+      </text>
+      
+      <!-- 2个字段 -->
+      <text>
+        <tspan data-type="field" data-count="2" data-len="12" x="0.5" y="55"></tspan>
+      </text>
+      <text>
+        <tspan data-type="field" data-count="2" data-len="12" x="0" y="135"></tspan>
+      </text>
+      
+      <!-- 3个字段 -->
+      <text>
+        <tspan data-type="field" data-count="3" data-len="12" x="0.5" y="25"></tspan>
+      </text>
+      <text>
+        <tspan data-type="field" data-count="3" data-len="12" x="0" y="85"></tspan>
+      </text>
+      <text>
+        <tspan data-type="field" data-count="3" data-len="12" x="0" y="147"></tspan>
+      </text>
+      
+      <!-- 四个字段 -->
+      <text>
+        <tspan data-type="field" data-count="4" data-len="12" x="0.5" y="25"></tspan>
+      </text>
+      <text>
+        <tspan data-type="field" data-count="4" data-len="12" x="0" y="81"></tspan>
+      </text>
+      <text>
+        <tspan data-type="field" data-count="4" data-len="12" x="0" y="137"></tspan>
+      </text>
+      <text>
+        <tspan data-type="field" data-count="4" data-len="12" x="0" y="193"></tspan>
+      </text>
+    </g>
+    <image x="39" y="164" width="194" height="194" xlink:href="" data-type="qr"></image>
+    <line x1="42.5" y1="125.5" x2="558.5" y2="125.5" stroke="#000000" stroke-linecap="square"></line>
+  </g>
+</svg>

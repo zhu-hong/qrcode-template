@@ -1,0 +1,71 @@
+<!-- 无logo 无副标题 5字段 -->
+<svg width="100%" height="100%" viewBox="0 0 600 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <rect fill="#FFFFFF" x="0" y="0" width="600" height="400"></rect>
+    <rect data-type="bg" fill="#B52B2B" x="0" y="0" width="600" height="78"></rect>
+    <text font-family="PingFangSC-Regular, PingFang SC" font-size="42" font-weight="normal" fill="#FFFFFF">
+      <tspan x="" y="55" data-type="title" data-center="true" data-basic="290" data-span="20" data-len="12"></tspan>
+    </text>
+    <g transform="translate(21.000000, 96.000000)">
+      <rect stroke="#000000" fill="#FFFFFF" x="-0.5" y="-0.5" width="559" height="287"></rect>
+      <image x="26" y="61" width="164" height="164" xlink:href="" data-type="qr"></image>
+      <g transform="translate(224.000000, 35.000000)" fill="#000000" font-family="PingFangSC-Regular, PingFang SC" font-size="20" font-weight="normal">
+        
+        <!-- 一个字段 -->
+        <text>
+          <tspan data-type="field" data-count="1" data-len="15" x="0" y="120"></tspan>
+        </text>
+        
+        <!-- 两个字段 -->
+        <text>
+          <tspan data-type="field" data-count="2" data-len="15" x="0" y="81"></tspan>
+        </text>
+        <text>
+          <tspan data-type="field" data-count="2" data-len="15" x="0" y="150"></tspan>
+        </text>
+        
+        <!-- 三个字段 -->
+        <text>
+          <tspan data-type="field" data-count="3" data-len="15" x="0" y="50"></tspan>
+        </text>
+        <text>
+          <tspan data-type="field" data-count="3" data-len="15" x="0" y="110"></tspan>
+        </text>
+        <text>
+          <tspan data-type="field" data-count="3" data-len="15" x="0" y="170"></tspan>
+        </text>
+        
+        <!-- 四个字段 -->
+        <text>
+          <tspan data-type="field" data-count="4" data-len="15" x="0" y="40"></tspan>
+        </text>
+        <text>
+          <tspan data-type="field" data-count="4" data-len="15" x="0" y="90"></tspan>
+        </text>
+        <text>
+          <tspan data-type="field" data-count="4" data-len="15" x="0" y="140"></tspan>
+        </text>
+        <text>
+          <tspan data-type="field" data-count="4" data-len="15" x="0" y="192"></tspan>
+        </text>
+        
+        <!-- 五个字段 -->
+        <text>
+          <tspan data-type="field" data-count="5" data-len="15" x="0" y="21"></tspan>
+        </text>
+        <text>
+          <tspan data-type="field" data-count="5" data-len="15" x="0" y="68"></tspan>
+        </text>
+        <text>
+          <tspan data-type="field" data-count="5" data-len="15" x="0" y="115"></tspan>
+        </text>
+        <text>
+          <tspan data-type="field" data-count="5" data-len="15" x="0" y="162"></tspan>
+        </text>
+        <text>
+          <tspan data-type="field" data-count="5" data-len="15" x="0" y="209"></tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

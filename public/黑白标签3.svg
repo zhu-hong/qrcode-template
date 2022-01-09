@@ -1,0 +1,35 @@
+<!-- 无logo 无副标题 3字段 -->
+<svg width="100%" height="100%" viewBox="0 0 400 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <rect fill="#FFFFFF" x="0" y="0" width="400" height="600"></rect>
+    <text font-family="PingFangSC-Regular, PingFang SC" font-size="42" font-weight="normal" fill="#000000">
+      <tspan x="95.5" y="62" data-type="title" data-center="true" data-basic="200" data-span="20" data-len="8"></tspan>
+    </text>
+
+    <image x="43" y="95" width="314" height="314" xlink:href="" data-type="qr"></image>
+
+    <!-- 1个字段 -->
+    <text font-family="PingFangSC-Regular, PingFang SC" font-size="28" font-weight="normal" fill="#000000">
+      <tspan data-type="field" data-center="true" data-basic="200" data-span="14" data-len="12" data-count="1" x="50" y="510"></tspan>
+    </text>
+
+    <!-- 2个字段 -->
+    <text font-family="PingFangSC-Regular, PingFang SC" font-size="28" font-weight="normal" fill="#000000">
+      <tspan data-type="field" data-center="true" data-basic="200" data-span="14" data-len="12" data-count="2" x="50" y="480"></tspan>
+    </text>
+    <text font-family="PingFangSC-Regular, PingFang SC" font-size="28" font-weight="normal" fill="#000000">
+      <tspan data-type="field" data-center="true" data-basic="200" data-span="14" data-len="12" data-count="2" x="50" y="540"></tspan>
+    </text>
+
+    <!-- 3个字段 -->
+    <text font-family="PingFangSC-Regular, PingFang SC" font-size="28" font-weight="normal" fill="#000000">
+      <tspan data-type="field" data-center="true" data-basic="200" data-span="14" data-len="12" data-count="3" x="50" y="458"></tspan>
+    </text>
+    <text font-family="PingFangSC-Regular, PingFang SC" font-size="28" font-weight="normal" fill="#000000">
+      <tspan data-type="field" data-center="true" data-basic="200" data-span="14" data-len="12" data-count="3" x="50" y="510"></tspan>
+    </text>
+    <text font-family="PingFangSC-Regular, PingFang SC" font-size="28" font-weight="normal" fill="#000000">
+      <tspan data-type="field" data-center="true" data-basic="200" data-span="14" data-len="12" data-count="3" x="50" y="562"></tspan>
+    </text>
+  </g>
+</svg>

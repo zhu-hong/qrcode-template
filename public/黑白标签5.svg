@@ -1,0 +1,13 @@
+<!-- 无logo 无副标题 1字段 -->
+<svg width="100%" height="100%" viewBox="0 0 400 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <rect fill="#FFFFFF" x="0" y="0" width="400" height="600"></rect>
+    <text font-family="PingFangSC-Medium, PingFang SC" font-size="42" font-weight="400" fill="#000000">
+      <tspan x="" y="102" data-type="title" data-center="true" data-basic="200" data-span="20" data-len="6"></tspan>
+    </text>
+    <text font-family="PingFangSC-Regular, PingFang SC" font-size="28" font-weight="normal" fill="#000000">
+      <tspan x="" y="536" data-type="field" data-count="1" data-center="true" data-basic="200" data-span="14" data-len="10"></tspan>
+    </text>
+    <image x="43" y="143" width="314" height="314" xlink:href="" data-type="qr"></image>
+  </g>
+</svg>
