@@ -13,6 +13,7 @@ nextTick(() => {
   const base64 = document.getElementById(`${props.qrData.id}canvas`).toDataURL()
   const qr = ins.refs.qrWrap
   qr.querySelector('[data-type=qr]').setAttribute('xlink:href', base64)
+  document.getElementById(`${props.qrData.id}canvas`).remove()
 })
 
 watch(
