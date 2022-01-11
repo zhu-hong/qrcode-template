@@ -5,8 +5,8 @@ export const renderText = (node: HTMLElement, text: string) => {
 
   let trueLen = 0
   for(let i = 0; i < len; i++) {
-    if(maxLen >= 0.5) {
-      if(text.slice(0, len).charCodeAt(i) > 255) {
+    if(maxLen >= 1) {
+      if(text.slice(0, len).charCodeAt(i) > 255 || (text.slice(0, len).charCodeAt(i) >= 65 && text.slice(0, len).charCodeAt(i) <= 90 && text.slice(0, len).charCodeAt(i) !== 73)) {
         maxLen-=1
       } else {
         maxLen-=0.5
@@ -17,7 +17,7 @@ export const renderText = (node: HTMLElement, text: string) => {
 
   let mergeLen = 0
   for(let i = 0; i < trueLen; i++) {
-    if(text.slice(0, trueLen).charCodeAt(i) > 255) {
+    if(text.slice(0, trueLen).charCodeAt(i) > 255 || (text.slice(0, len).charCodeAt(i) >= 65 && text.slice(0, len).charCodeAt(i) <= 90 && text.slice(0, len).charCodeAt(i) !== 73)) {
       mergeLen+=1
     } else {
       mergeLen+=0.5
@@ -32,7 +32,7 @@ export const renderText = (node: HTMLElement, text: string) => {
     // 中文字符数
     let CHNCount = 0
     for(let i = 0; i < trueLen; i++) {
-      if(text.slice(0, trueLen).charCodeAt(i) > 255) {
+      if(text.slice(0, trueLen).charCodeAt(i) > 255 || (text.slice(0, len).charCodeAt(i) >= 65 && text.slice(0, len).charCodeAt(i) <= 90 && text.slice(0, len).charCodeAt(i) !== 73)) {
         CHNCount++
       }
     }
@@ -42,8 +42,8 @@ export const renderText = (node: HTMLElement, text: string) => {
     node.setAttribute('x', String(x))
   }
   
-  if(mergeLen >= maxLenFreeze || len === 50) {
-    node.textContent = text.slice(0, trueLen - 1) + '...'
+  if(mergeLen >= maxLenFreeze - 0.5 || len === 50) {
+    node.textContent = text.slice(0, trueLen) + '...'
     return
   }
   node.textContent = text.slice(0, trueLen)
