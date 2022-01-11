@@ -1,11 +1,11 @@
 export const renderText = (node: HTMLElement, text: string) => {
   let maxLen = Number(node.getAttribute('data-len'))
   let maxLenFreeze = Number(node.getAttribute('data-len'))
-  let len = text.slice(0, 20).length
+  let len = text.slice(0, 50).length
 
   let trueLen = 0
   for(let i = 0; i < len; i++) {
-    if(maxLen >= 1) {
+    if(maxLen >= 0.5) {
       if(text.slice(0, len).charCodeAt(i) > 255) {
         maxLen-=1
       } else {
@@ -42,8 +42,7 @@ export const renderText = (node: HTMLElement, text: string) => {
     node.setAttribute('x', String(x))
   }
   
-  if(mergeLen >= maxLenFreeze - 0.5 || len === 20) {
-    console.log(1)
+  if(mergeLen >= maxLenFreeze || len === 50) {
     node.textContent = text.slice(0, trueLen - 1) + '...'
     return
   }
