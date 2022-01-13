@@ -1,20 +1,16 @@
 <!-- 有logo 有副标题 5字段 -->
 <svg width="100%" height="100%" viewBox="0 0 600 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
-    <rect id="h6p1" x="0" y="0" width="34" height="34"></rect>
   </defs>
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
     <rect fill="#FFFFFF" x="0" y="0" width="600" height="400"></rect>
+    <rect id="h6p1" x="0" y="0" width="34" height="34" fill="#FFF"></rect>
     <image x="389" y="164" width="170" height="170" xlink:href="" data-type="qr"></image>
     <text font-family="PingFangSC-Regular, PingFang SC" font-size="32" font-weight="normal" fill="#000000">
       <tspan x="84" y="49" data-type="title" data-len="14"></tspan>
     </text>
     <g transform="translate(39.000000, 21.000000)">
-      <mask id="h6m1" fill="white">
-        <use xlink:href="#h6p1"></use>
-      </mask>
-      <use fill="#FFFFFF" xlink:href="#h6p1"></use>
-      <image mask="url(#h6m1)" x="0" y="0" width="32" height="32" xlink:href="" data-type="logo"></image>
+      <image x="0" y="0" width="32" height="32" xlink:href="" data-type="logo"></image>
     </g>
     <text font-family="PingFangSC-Regular, PingFang SC" font-size="26" font-weight="normal" fill="#000000">
       <tspan x="84" y="96" data-type="subTitle" data-len="18"></tspan>
