@@ -5,16 +5,16 @@
     <text font-family="PingFangSC-Semibold, PingFang SC" font-size="38" font-weight="500" fill="#000000">
       <tspan x="39" y="77" data-type="title" data-len="13"></tspan>
     </text>
-    <g transform="translate(39.000000, 162.000000)" fill="#000000" font-family="PingFangSC-Regular, PingFang SC" font-size="22" font-weight="normal">
+    <g transform="translate(39, 162)" fill="#000000" font-family="PingFangSC-Regular, PingFang SC" font-size="22" font-weight="normal">
 
       <!-- 1个字段 -->
       <text>
-        <tspan data-type="field" data-len="14" data-count="1" x="0.5" y="63"></tspan>
+        <tspan data-type="field" data-len="14" data-count="1" x="0" y="63"></tspan>
       </text>
 
       <!-- 2个字段 -->
       <text>
-        <tspan data-type="field" data-len="14" data-count="2" x="0.5" y="53"></tspan>
+        <tspan data-type="field" data-len="14" data-count="2" x="0" y="53"></tspan>
       </text>
       <text>
         <tspan data-type="field" data-len="14" data-count="2" x="0" y="123"></tspan>
@@ -22,7 +22,7 @@
 
       <!-- 3个字段 -->
       <text>
-        <tspan data-type="field" data-len="14" data-count="3" x="0.5" y="30"></tspan>
+        <tspan data-type="field" data-len="14" data-count="3" x="0" y="30"></tspan>
       </text>
       <text>
         <tspan data-type="field" data-len="14" data-count="3" x="0" y="80"></tspan>
@@ -33,7 +33,7 @@
 
       <!-- 4个字段 -->
       <text>
-        <tspan data-type="field" data-len="14" data-count="4" x="0.5" y="23"></tspan>
+        <tspan data-type="field" data-len="14" data-count="4" x="0" y="23"></tspan>
       </text>
       <text>
         <tspan data-type="field" data-len="14" data-count="4" x="0" y="63"></tspan>

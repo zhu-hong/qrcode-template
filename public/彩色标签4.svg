@@ -6,7 +6,7 @@
       <tspan x="20" y="70" data-type="title" data-len="12"></tspan>
     </text>
     <rect fill="#FFFFFF" x="16" y="106" width="568" height="278" rx="12"></rect>
-    <g transform="translate(40.000000, 145.000000)" fill="#000000" font-family="PingFangSC-Regular, PingFang SC" font-size="20" font-weight="normal">
+    <g transform="translate(40, 145)" fill="#000000" font-family="PingFangSC-Regular, PingFang SC" font-size="20" font-weight="normal">
       <!-- 一个字段 -->
       <text>
         <tspan data-type="field" data-len="18" data-count="1" x="0" y="100"></tspan>

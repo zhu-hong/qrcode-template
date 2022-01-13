@@ -1,7 +1,5 @@
 <!-- 有logo 有副标题 5字段 -->
 <svg width="100%" height="100%" viewBox="0 0 600 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <defs>
-  </defs>
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
     <g>
       <rect fill="#FFFFFF" x="0" y="0" width="600" height="400" />
@@ -12,14 +10,14 @@
       <text font-family="PingFangSC-Regular, PingFang SC" font-size="20" font-weight="normal" fill="#5D5E67">
         <tspan x="111.5" y="127" data-type="subTitle" data-len="20"></tspan>
       </text>
-      <g transform="translate(419.000000, 203.000000)">
-        <rect id="c1p1" x="0" y="0" width="156" height="156" rx="6" />
-        <rect x="0.5" y="0.5" width="155" height="155" rx="6" fill="white" />
+      <g transform="translate(419, 203)">
+        <rect x="0" y="0" width="156" height="156" rx="6" />
+        <rect x="0" y="0" width="155" height="155" rx="6" fill="#FFF" />
         <g transform="translate(8,8)">
           <image x="0" y="0" width="140" height="140" data-type="qr" xlink:href=""/>
         </g>
       </g>
-      <g transform="translate(33.000000, 187.000000)" fill="#FFFFFF" font-family="PingFangSC-Regular, PingFang SC" font-size="20">
+      <g transform="translate(33, 187)" fill="#FFFFFF" font-family="PingFangSC-Regular, PingFang SC" font-size="20">
         <!-- 一个字段 -->
         <text>
           <tspan x="0" y="101" data-type="field" data-len="16" data-count="1"></tspan>
@@ -75,9 +73,9 @@
           <tspan x="0" y="181" data-type="field" data-len="16" data-count="5"></tspan>
         </text>
       </g>
-      <g transform="translate(34.000000, 33.000000)">
-        <rect id="c1p2" x="0" y="0" width="56" height="56" fill="#FFF" />
-        <image x="2" y="9" width="48" height="48" data-type="logo" xlink:href="" />
+      <g transform="translate(34, 34)">
+        <rect x="0" y="0" width="48" height="48" fill="#FFF" />
+        <image x="0" y="0" width="48" height="48" data-type="logo" xlink:href="" />
       </g>
     </g>
   </g>

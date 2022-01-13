@@ -1,11 +1,9 @@
 <!-- 无logo 无副标题 三字段 -->
 <svg width="100%" height="100%" viewBox="0 0 400 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <defs>
-  </defs>
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
     <rect data-type="bg" fill="#838276" x="0" y="0" width="400" height="600"></rect>
-    <g transform="translate(22.000000, 122.000000)">
-      <rect id="c7p1" x="0" y="0" width="356" height="448" rx="14" fill="#FFF"></rect>
+    <g transform="translate(22, 122)">
+      <rect x="0" y="0" width="356" height="448" rx="14" fill="#FFF"></rect>
     </g>
     <text font-family="PingFangSC-Semibold, PingFang SC" font-size="38" font-weight="500" fill="#FFFFFF">
       <tspan x="" y="84" data-type="title" data-center="true" data-basic="200" data-span="20" data-len="8"></tspan>
@@ -13,26 +11,26 @@
 
     <!-- 一个字段 -->
     <text font-family="PingFangSC-Regular, PingFang SC" font-size="22" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-center="true" data-basic="200" data-span="11" data-len="14" data-count="1" x="94.4" y="470"></tspan>
+      <tspan data-type="field" data-center="true" data-basic="200" data-span="11" data-len="14" data-count="1" x="" y="470"></tspan>
     </text>
 
     <!-- 两个字段 -->
     <text font-family="PingFangSC-Regular, PingFang SC" font-size="22" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-center="true" data-basic="200" data-span="11" data-len="14" data-count="2" x="94.4" y="450"></tspan>
+      <tspan data-type="field" data-center="true" data-basic="200" data-span="11" data-len="14" data-count="2" x="" y="450"></tspan>
     </text>
     <text font-family="PingFangSC-Regular, PingFang SC" font-size="22" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-center="true" data-basic="200" data-span="11" data-len="14" data-count="2" x="94.4" y="500"></tspan>
+      <tspan data-type="field" data-center="true" data-basic="200" data-span="11" data-len="14" data-count="2" x="" y="500"></tspan>
     </text>
 
     <!-- 三个字段 -->
     <text font-family="PingFangSC-Regular, PingFang SC" font-size="22" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-center="true" data-basic="200" data-span="11" data-len="14" data-count="3" x="94.4" y="428"></tspan>
+      <tspan data-type="field" data-center="true" data-basic="200" data-span="11" data-len="14" data-count="3" x="" y="428"></tspan>
     </text>
     <text font-family="PingFangSC-Regular, PingFang SC" font-size="22" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-center="true" data-basic="200" data-span="11" data-len="14" data-count="3" x="94.4" y="476"></tspan>
+      <tspan data-type="field" data-center="true" data-basic="200" data-span="11" data-len="14" data-count="3" x="" y="476"></tspan>
     </text>
     <text font-family="PingFangSC-Regular, PingFang SC" font-size="22" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-center="true" data-basic="200" data-span="11" data-len="14" data-count="3" x="94.4" y="524"></tspan>
+      <tspan data-type="field" data-center="true" data-basic="200" data-span="11" data-len="14" data-count="3" x="" y="524"></tspan>
     </text>
 
     <g transform="translate(101, 169)">

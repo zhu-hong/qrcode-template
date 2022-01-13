@@ -1,6 +1,7 @@
 <!-- 无logo 有副标题 6字段 -->
 <svg width="100%" height="100%" viewBox="0 0 600 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <rect fill="#FFFFFF" x="0" y="0" width="600" height="400" />
     
     <!-- 一个字段 -->
     <text font-family="PingFangSC-Regular, PingFang SC" font-size="24" font-weight="normal" fill="#000000">
@@ -83,7 +84,7 @@
       <tspan x="" y="55" data-type="title" data-center="true" data-basic="290" data-span="20" data-len="12"></tspan>
     </text>
     <text font-family="PingFangSC-Regular, PingFang SC" font-size="20" font-weight="normal" fill="#FFFFFF">
-      <tspan x="230" y="380" data-type="subTitle" data-center="true" data-basic="290" data-span="10" data-len="20"></tspan>
+      <tspan x="" y="380" data-type="subTitle" data-center="true" data-basic="290" data-span="10" data-len="20"></tspan>
     </text>
     <g transform="translate(358, 130)">
       <image x="0" y="0" width="164" height="164" xlink:href="" data-type="qr"></image>

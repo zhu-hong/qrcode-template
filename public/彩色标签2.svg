@@ -1,7 +1,5 @@
  <!-- 无logo 无副标题 3字段 -->
  <svg width="100%" height="100%" viewBox="0 0 400 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <defs>
-  </defs>
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
     <rect fill="#FFFFFF" x="0" y="0" width="400" height="600"></rect>
     <path data-type="bg" d="M399.999003,318.000276 C336.377874,335.593111 269.299931,345 199.999967,345 C130.700028,345 63.6221067,335.593117 0.000997315636,318.000294 L399.999003,318.000276 Z M400,-1 L400,318 L3.63797881e-12,318 L3.69482223e-12,-1 L400,-1 Z" fill="#DC8C00"></path>
@@ -32,9 +30,9 @@
     <text font-family="PingFangSC-Medium, PingFang SC" font-size="20" font-weight="400" fill="#000000">
       <tspan data-type="field" data-len="14" data-count="3" data-center="true" data-basic="220" data-span="12" x="" y="548"></tspan>
     </text>
-    <g transform="translate(69.000000, 158.000000)">
+    <g transform="translate(69, 158)">
       <rect x="0" y="0" width="262" height="262" rx="20"></rect>
-      <rect x="0" y="-0.5" width="263" height="263" rx="20" fill="#FFF" stroke="#ccc"></rect>
+      <rect x="0" y="0" width="262" height="262" rx="20" fill="#FFF" stroke="#ccc"></rect>
       <g transform="translate(15, 15)">
         <image x="0" y="0" width="230" height="230" xlink:href="" data-type="qr"></image>
       </g>

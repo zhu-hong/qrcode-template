@@ -30,7 +30,7 @@
       <text font-family="PingFangSC-Regular, PingFang SC" font-size="22" font-weight="normal" fill="#000000">
         <tspan data-type="field" data-center="true" data-basic="200" data-span="11" data-len="15" data-count="3" x="" y="532"></tspan>
       </text>
-      <g transform="translate(80.000000, 152.000000)">
+      <g transform="translate(80, 152)">
         <image data-type="qr" x="0" y="0" width="240" height="240" xlink:href=""></image>
       </g>
     </g>

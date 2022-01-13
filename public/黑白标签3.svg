@@ -13,26 +13,26 @@
 
     <!-- 1个字段 -->
     <text font-family="PingFangSC-Regular, PingFang SC" font-size="28" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-center="true" data-basic="200" data-span="14" data-len="12" data-count="1" x="50" y="510"></tspan>
+      <tspan data-type="field" data-center="true" data-basic="200" data-span="14" data-len="12" data-count="1" x="" y="510"></tspan>
     </text>
 
     <!-- 2个字段 -->
     <text font-family="PingFangSC-Regular, PingFang SC" font-size="28" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-center="true" data-basic="200" data-span="14" data-len="12" data-count="2" x="50" y="480"></tspan>
+      <tspan data-type="field" data-center="true" data-basic="200" data-span="14" data-len="12" data-count="2" x="" y="480"></tspan>
     </text>
     <text font-family="PingFangSC-Regular, PingFang SC" font-size="28" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-center="true" data-basic="200" data-span="14" data-len="12" data-count="2" x="50" y="540"></tspan>
+      <tspan data-type="field" data-center="true" data-basic="200" data-span="14" data-len="12" data-count="2" x="" y="540"></tspan>
     </text>
 
     <!-- 3个字段 -->
     <text font-family="PingFangSC-Regular, PingFang SC" font-size="28" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-center="true" data-basic="200" data-span="14" data-len="12" data-count="3" x="50" y="458"></tspan>
+      <tspan data-type="field" data-center="true" data-basic="200" data-span="14" data-len="12" data-count="3" x="" y="458"></tspan>
     </text>
     <text font-family="PingFangSC-Regular, PingFang SC" font-size="28" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-center="true" data-basic="200" data-span="14" data-len="12" data-count="3" x="50" y="510"></tspan>
+      <tspan data-type="field" data-center="true" data-basic="200" data-span="14" data-len="12" data-count="3" x="" y="510"></tspan>
     </text>
     <text font-family="PingFangSC-Regular, PingFang SC" font-size="28" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-center="true" data-basic="200" data-span="14" data-len="12" data-count="3" x="50" y="562"></tspan>
+      <tspan data-type="field" data-center="true" data-basic="200" data-span="14" data-len="12" data-count="3" x="" y="562"></tspan>
     </text>
   </g>
 </svg>

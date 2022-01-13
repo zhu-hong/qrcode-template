@@ -6,12 +6,12 @@
     <text font-family="PingFangSC-Regular, PingFang SC" font-size="42" font-weight="normal" fill="#FFFFFF">
       <tspan x="" y="55" data-type="title" data-center="true" data-basic="290" data-span="20" data-len="12"></tspan>
     </text>
-    <g transform="translate(21.000000, 96.000000)">
+    <g transform="translate(21, 96)">
       <rect stroke="#000000" fill="#FFFFFF" x="-0.5" y="-0.5" width="559" height="287"></rect>
       <g transform="translate(26,61)">
         <image x="0" y="0" width="164" height="164" xlink:href="" data-type="qr"></image>
       </g>
-      <g transform="translate(224.000000, 35.000000)" fill="#000000" font-family="PingFangSC-Regular, PingFang SC" font-size="20" font-weight="normal">
+      <g transform="translate(224, 35)" fill="#000000" font-family="PingFangSC-Regular, PingFang SC" font-size="20" font-weight="normal">
         
         <!-- 一个字段 -->
         <text>

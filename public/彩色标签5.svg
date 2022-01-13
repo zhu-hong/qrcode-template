@@ -56,9 +56,9 @@
     <text font-family="PingFangSC-Semibold, PingFang SC" font-size="20" font-weight="500" fill="#000000">
       <tspan x="" y="163" data-type="subTitle" data-len="8" data-center="true" data-basic="140" data-span="10"></tspan>
     </text>
-    <g transform="translate(104.000000, 57.000000)">
-      <rect id="c5p1" x="0" y="0" width="70" height="70" fill="#FFF"></rect>
-      <image x="2" y="11" width="48" height="48" data-type="logo" xlink:href=""></image>
+    <g transform="translate(114, 57)">
+      <rect x="0" y="0" width="48" height="48" fill="#FFF"></rect>
+      <image x="0" y="0" width="48" height="48" data-type="logo" xlink:href=""></image>
     </g>
   </g>
 </svg>
