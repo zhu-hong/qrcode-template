@@ -60,5 +60,5 @@ watch(
     :style="{ width: qrData.width + 'mm', height: qrData.height + 'mm' }"
     v-bind="$attrs"
   ></div>
-  <Qr :value="qrData.id" class="hidden" :id="qrData.id + 'canvas'" :margin="1" />
+  <Qr :value="qrData.id" class="hidden" :id="qrData.id + 'canvas'" />
 </template>

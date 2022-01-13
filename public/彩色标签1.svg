@@ -1,7 +1,6 @@
 <!-- 有logo 有副标题 5字段 -->
 <svg width="100%" height="100%" viewBox="0 0 600 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
-    <rect id="c1p1" x="0" y="0" width="156" height="156" rx="6" />
     <rect id="c1p2" x="0" y="0" width="56" height="56" />
   </defs>
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -15,11 +14,9 @@
         <tspan x="111.5" y="127" data-type="subTitle" data-len="20"></tspan>
       </text>
       <g transform="translate(419.000000, 203.000000)">
-        <mask id="c1m1" fill="white">
-          <use xlink:href="#c1p1" />
-        </mask>
-        <rect stroke="#979797" x="0.5" y="0.5" width="155" height="155" rx="6" />
-        <image mask="url(#c1m1)" x="0" y="0" width="156" height="156" data-type="qr" xlink:href="" />
+        <rect id="c1p1" x="0" y="0" width="156" height="156" rx="6" />
+        <rect x="0.5" y="0.5" width="155" height="155" rx="6" fill="white" />
+        <image x="0" y="0" width="140" height="140" data-type="qr" xlink:href=""  transform="translate(8, 8)"/>
       </g>
       <g transform="translate(33.000000, 187.000000)" fill="#FFFFFF" font-family="PingFangSC-Regular, PingFang SC" font-size="20">
         <!-- 一个字段 -->

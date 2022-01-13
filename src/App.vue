@@ -9,7 +9,6 @@ const colors = ['#000000', '#254569', '#2B2A6F', '#2D65B7', '#3B75A9', '#67717C'
 const size = [[30, 45], [40, 60], [60, 90], [80, 120], [100, 150], [150, 225]]
 
 const loadLogo = (i ,e) => {
-  console.log(i, e)
   const file = e.target.files[0]
 
   const fr = new FileReader()
