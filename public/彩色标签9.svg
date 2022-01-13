@@ -8,7 +8,9 @@
     </text>
     <g transform="translate(21.000000, 96.000000)">
       <rect stroke="#000000" fill="#FFFFFF" x="-0.5" y="-0.5" width="559" height="287"></rect>
-      <image x="26" y="61" width="164" height="164" xlink:href="" data-type="qr"></image>
+      <g transform="translate(26,61)">
+        <image x="0" y="0" width="164" height="164" xlink:href="" data-type="qr"></image>
+      </g>
       <g transform="translate(224.000000, 35.000000)" fill="#000000" font-family="PingFangSC-Regular, PingFang SC" font-size="20" font-weight="normal">
         
         <!-- 一个字段 -->

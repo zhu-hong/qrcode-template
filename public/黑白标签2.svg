@@ -48,7 +48,9 @@
         <tspan data-type="field" data-count="4" data-len="12" x="0" y="193"></tspan>
       </text>
     </g>
-    <image x="39" y="164" width="194" height="194" xlink:href="" data-type="qr"></image>
+    <g transform="translate(39,164)">
+      <image x="0" y="0" width="194" height="194" xlink:href="" data-type="qr"></image>    
+    </g>
     <line x1="42.5" y1="125.5" x2="558.5" y2="125.5" stroke="#000000" stroke-linecap="square"></line>
   </g>
 </svg>

@@ -85,6 +85,8 @@
     <text font-family="PingFangSC-Regular, PingFang SC" font-size="20" font-weight="normal" fill="#FFFFFF">
       <tspan x="230" y="380" data-type="subTitle" data-center="true" data-basic="290" data-span="10" data-len="20"></tspan>
     </text>
-    <image x="385" y="149" width="164" height="164" xlink:href="" data-type="qr"></image>
+    <g transform="translate(358, 130)">
+      <image x="0" y="0" width="164" height="164" xlink:href="" data-type="qr"></image>
+    </g>
   </g>
 </svg>

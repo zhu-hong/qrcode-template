@@ -11,7 +11,9 @@
       </text>
       <g transform="translate(69.000000, 210.000000)">
         <rect id="c10p1" x="0" y="0" width="262" height="262" rx="14" fill="#FFF"></rect>
-        <image x="0" y="0" width="235" height="235" xlink:href="" data-type="qr" transform="translate(13,13)"></image>
+        <g transform="translate(13,13)">
+          <image x="0" y="0" width="235" height="235" xlink:href="" data-type="qr""></image>
+        </g>
       </g>
       <image x="180" y="30" width="48" height="48" xlink:href="" data-type="logo"></image>
       <text id="885" font-family="PingFangSC-Semibold, PingFang SC" font-size="28" font-weight="500" fill="#FFFFFF">

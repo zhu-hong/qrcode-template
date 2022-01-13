@@ -5,7 +5,9 @@
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
     <rect fill="#FFFFFF" x="0" y="0" width="600" height="400"></rect>
     <rect id="h6p1" x="0" y="0" width="34" height="34" fill="#FFF"></rect>
-    <image x="389" y="164" width="170" height="170" xlink:href="" data-type="qr"></image>
+    <g transform="translate(389,164)">
+      <image x="0" y="0" width="170" height="170" xlink:href="" data-type="qr"></image>
+    </g>
     <text font-family="PingFangSC-Regular, PingFang SC" font-size="32" font-weight="normal" fill="#000000">
       <tspan x="84" y="49" data-type="title" data-len="14"></tspan>
     </text>

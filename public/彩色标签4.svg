@@ -62,6 +62,8 @@
         <tspan data-type="field" data-len="18" data-count="5" x="0" y="193"></tspan>
       </text>
     </g>
-    <image data-type="qr" x="435" y="182" width="126" height="126" xlink:href=""></image>
+    <g transform="translate(435,182)">
+      <image data-type="qr" x="0" y="0" width="126" height="126" xlink:href=""></image>
+    </g>
   </g>
 </svg>

@@ -1,5 +1,5 @@
 <script setup>
-import { reactive } from 'vue';
+import { reactive } from 'vue'
 import QrTemp from './components/QrTemp.vue'
 import data from './data'
 

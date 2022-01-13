@@ -50,7 +50,9 @@
       </g>
     </g>
     <rect fill="#FFFFFF" x="24" y="24" width="229" height="352" rx="12"></rect>
-    <image x="75" y="200" width="128" height="128" data-type="qr" xlink:href=""></image>
+    <g transform="translate(75,200)">
+      <image x="0" y="0" width="128" height="128" data-type="qr" xlink:href=""></image>
+    </g>
     <text font-family="PingFangSC-Semibold, PingFang SC" font-size="20" font-weight="500" fill="#000000">
       <tspan x="" y="163" data-type="subTitle" data-len="8" data-center="true" data-basic="140" data-span="10"></tspan>
     </text>

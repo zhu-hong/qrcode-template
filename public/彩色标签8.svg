@@ -30,7 +30,9 @@
       <rect data-type="bg" fill="#F9BD00" x="387" y="0" width="13" height="289"></rect>
       <rect x="52" y="99" width="296" height="296" rx="14"></rect>
       <rect x="51.5" y="98.5" width="297" height="297" rx="14" fill="#FFF" stroke="#ccc"></rect>
-      <image x="52" y="99" width="270" height="270" xlink:href="" data-type="qr" transform="translate(12,15)"></image>
+      <g transform="translate(65,115)">
+        <image x="0" y="0" width="270" height="270" xlink:href="" data-type="qr"></image>
+      </g>
     </g>
   </g>
 </svg>

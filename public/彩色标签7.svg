@@ -35,6 +35,8 @@
       <tspan data-type="field" data-center="true" data-basic="200" data-span="11" data-len="14" data-count="3" x="94.4" y="524"></tspan>
     </text>
 
-    <image data-type="qr" x="101" y="169" width="198" height="198" xlink:href=""></image>
+    <g transform="translate(101, 169)">
+      <image data-type="qr" x="0" y="0" width="198" height="198" xlink:href=""></image>
+    </g>
   </g>
 </svg>

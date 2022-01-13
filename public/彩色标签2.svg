@@ -34,8 +34,10 @@
     </text>
     <g transform="translate(69.000000, 158.000000)">
       <rect x="0" y="0" width="262" height="262" rx="20"></rect>
-      <rect x="0" y="-0.5" width="263" height="263" rx="20" fill="#FFF"></rect>
-      <image x="0" y="0" width="230" height="230" xlink:href="" data-type="qr" transform="translate(15, 15)"></image>
+      <rect x="0" y="-0.5" width="263" height="263" rx="20" fill="#FFF" stroke="#ccc"></rect>
+      <g transform="translate(15, 15)">
+        <image x="0" y="0" width="230" height="230" xlink:href="" data-type="qr"></image>
+      </g>
     </g>
   </g>
 </svg>

@@ -10,10 +10,14 @@ const props = defineProps({
 const ins = getCurrentInstance()
 
 nextTick(() => {
-  const base64 = document.getElementById(`${props.qrData.id}canvas`).toDataURL()
+  const qrSvg = document.getElementById(`${props.qrData.id}svg`)
   const qr = ins.refs.qrWrap
-  qr.querySelector('[data-type=qr]').setAttribute('xlink:href', base64)
-  document.getElementById(`${props.qrData.id}canvas`).remove()
+  qrSvg.setAttribute('width', qr.querySelector('[data-type=qr]').getAttribute('width'))
+  qrSvg.setAttribute('height', qr.querySelector('[data-type=qr]').getAttribute('height'))
+  // qrSvg.children[1].setAttribute('transform', qr.querySelector('[data-type=qr]').getAttribute('transform'))
+  qrSvg.removeAttribute('class')
+  qr.querySelector('[data-type=qr]').parentNode.replaceChild(qrSvg, qr.querySelector('[data-type=qr]'))
+  // document.getElementById(`${props.qrData.id}svg`).remove()
 })
 
 watch(
@@ -60,5 +64,5 @@ watch(
     :style="{ width: qrData.width + 'mm', height: qrData.height + 'mm' }"
     v-bind="$attrs"
   ></div>
-  <Qr :value="qrData.id" class="hidden" :id="qrData.id + 'canvas'" />
+  <Qr :value="qrData.id" class="hidden" :id="qrData.id + 'svg'" render-as="svg" />
 </template>

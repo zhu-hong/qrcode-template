@@ -6,7 +6,10 @@
       <tspan x="95.5" y="62" data-type="title" data-center="true" data-basic="200" data-span="20" data-len="8"></tspan>
     </text>
 
-    <image x="43" y="95" width="314" height="314" xlink:href="" data-type="qr"></image>
+    <g transform="translate(43,95)">
+      <image x="0" y="0" width="314" height="314" xlink:href="" data-type="qr"></image>  
+    </g>
+
 
     <!-- 1个字段 -->
     <text font-family="PingFangSC-Regular, PingFang SC" font-size="28" font-weight="normal" fill="#000000">
