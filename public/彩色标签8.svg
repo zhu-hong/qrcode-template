@@ -1,27 +1,25 @@
-<!-- 无logo 有副标题 2字段 -->
 <svg width="100%" height="100%" viewBox="0 0 400 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
     <g>
       <rect fill="#FFFFFF" x="0" y="0" width="400" height="600"></rect>
       <path data-type="bg" d="M399.999003,573.000276 C336.377874,590.593111 269.299931,600 199.999967,600 C130.700028,600 63.6221067,590.593117 0.000997315633,573.000294 L399.999003,573.000276 Z M400,254 L400,573 L8.52651283e-13,573 L9.09494702e-13,254 L400,254 Z" fill="#F9BD00" transform="translate(200.000000, 427.000000) rotate(-180.000000) translate(-200.000000, -427.000000)"></path>
-      <text font-family="PingFangSC-Semibold, PingFang SC" font-size="42" font-weight="500" fill="#000000">
-        <tspan x="95" y="70" data-type="title" data-center="true" data-basic="200" data-span="20" data-len="7"></tspan>
-      </text>
-      <text font-family="PingFangSC-Semibold, PingFang SC" font-size="38" font-weight="500" fill="#000000">
-        <tspan x="" y="464" data-type="subTitle" data-center="true" data-basic="210" data-span="20" data-len="8"></tspan>
+      <text font-family="微软雅黑" font-size="42" font-weight="500" fill="#000000"  style="dominant-baseline:middle;text-anchor:middle;">
+        <tspan x="200" y="55" data-type="title" data-len="7"></tspan>
       </text>
 
-      <!-- 一个字段 -->
-      <text font-family="PingFangSC-Medium, PingFang SC" font-size="24" font-weight="400" fill="#000000">
-        <tspan x="" y="524" data-type="field" data-count="1" data-center="true" data-basic="200" data-span="12" data-len="14"></tspan>
+      <text font-family="微软雅黑" font-size="38" style="dominant-baseline:middle;text-anchor:middle;" font-weight="500" fill="#000000">
+        <tspan x="200" y="450" data-type="subTitle" data-len="8"></tspan>
       </text>
 
-      <!-- 两个字段 -->
-      <text font-family="PingFangSC-Medium, PingFang SC" font-size="24" font-weight="400" fill="#000000">
-        <tspan x="" y="514" data-type="field" data-count="2" data-center="true" data-basic="200" data-span="12" data-len="14"></tspan>
+      <text font-family="PingFangSC-Medium, PingFang SC" font-size="24" style="dominant-baseline:middle;text-anchor:middle;" font-weight="400" fill="#000000">
+        <tspan x="200" y="524" data-type="field" data-count="1" data-len="14"></tspan>
       </text>
-      <text font-family="PingFangSC-Medium, PingFang SC" font-size="24" font-weight="400" fill="#000000">
-        <tspan x="" y="556" data-type="field" data-count="2" data-center="true" data-basic="200" data-span="12" data-len="14"></tspan>
+
+      <text font-family="PingFangSC-Medium, PingFang SC" font-size="24" style="dominant-baseline:middle;text-anchor:middle;" font-weight="400" fill="#000000">
+        <tspan x="200" y="510" data-type="field" data-count="2" data-len="14"></tspan>
+      </text>
+      <text font-family="PingFangSC-Medium, PingFang SC" font-size="24" style="dominant-baseline:middle;text-anchor:middle;" font-weight="400" fill="#000000">
+        <tspan x="200" y="556" data-type="field" data-count="2" data-len="14"></tspan>
       </text>
 
       <rect data-type="bg" fill="#F9BD00" x="0" y="0" width="13" height="289"></rect>

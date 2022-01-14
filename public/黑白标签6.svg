@@ -1,76 +1,68 @@
-<!-- 有logo 有副标题 5字段 -->
 <svg width="100%" height="100%" viewBox="0 0 600 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <defs>
-  </defs>
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
     <rect fill="#FFFFFF" x="0" y="0" width="600" height="400"></rect>
     <g transform="translate(389,164)">
       <image x="0" y="0" width="170" height="170" xlink:href="" data-type="qr"></image>
     </g>
-    <text font-family="PingFangSC-Regular, PingFang SC" font-size="32" font-weight="normal" fill="#000000">
+    <text font-family="微软雅黑" font-size="32" font-weight="normal" fill="#000000">
       <tspan x="84" y="49" data-type="title" data-len="14"></tspan>
     </text>
     <g transform="translate(39, 21)">
       <image x="0" y="0" width="32" height="32" xlink:href="" data-type="logo"></image>
     </g>
-    <text font-family="PingFangSC-Regular, PingFang SC" font-size="26" font-weight="normal" fill="#000000">
+    <text font-family="微软雅黑" font-size="26" font-weight="normal" fill="#000000">
       <tspan x="84" y="96" data-type="subTitle" data-len="18"></tspan>
     </text>
-    <g transform="translate(43, 150)" fill="#000000" font-family="PingFangSC-Regular, PingFang SC" font-size="24" font-weight="normal">
+    <g transform="translate(43, 150)" fill="#000000" font-family="微软雅黑" font-size="24" font-weight="normal">
 
-      <!-- 一个字段 -->
       <text>
-        <tspan data-type="field" data-len="14" data-count="1" x="0" y="100"></tspan>
-      </text>
-
-      <!-- 二个字段 -->
-      <text>
-        <tspan data-type="field" data-len="14" data-count="2" x="0" y="85"></tspan>
-      </text>
-      <text>
-        <tspan data-type="field" data-len="14" data-count="2" x="0" y="165"></tspan>
+        <tspan data-type="field" data-len="13" data-count="1" x="0" y="100"></tspan>
       </text>
 
-      <!-- 三个字段 -->
       <text>
-        <tspan data-type="field" data-len="14" data-count="3" x="0" y="55"></tspan>
+        <tspan data-type="field" data-len="13" data-count="2" x="0" y="85"></tspan>
       </text>
       <text>
-        <tspan data-type="field" data-len="14" data-count="3" x="0" y="125"></tspan>
-      </text>
-      <text>
-        <tspan data-type="field" data-len="14" data-count="3" x="0" y="195"></tspan>
+        <tspan data-type="field" data-len="13" data-count="2" x="0" y="165"></tspan>
       </text>
 
-      <!-- 四个字段 -->
       <text>
-        <tspan data-type="field" data-len="14" data-count="4" x="0" y="30"></tspan>
+        <tspan data-type="field" data-len="13" data-count="3" x="0" y="55"></tspan>
       </text>
       <text>
-        <tspan data-type="field" data-len="14" data-count="4" x="0" y="80"></tspan>
+        <tspan data-type="field" data-len="13" data-count="3" x="0" y="125"></tspan>
       </text>
       <text>
-        <tspan data-type="field" data-len="14" data-count="4" x="0" y="130"></tspan>
-      </text>
-      <text>
-        <tspan data-type="field" data-len="14" data-count="4" x="0" y="180"></tspan>
+        <tspan data-type="field" data-len="13" data-count="3" x="0" y="195"></tspan>
       </text>
 
-      <!-- 五个字段 -->
       <text>
-        <tspan data-type="field" data-len="14" data-count="5" x="0" y="25"></tspan>
+        <tspan data-type="field" data-len="13" data-count="4" x="0" y="30"></tspan>
       </text>
       <text>
-        <tspan data-type="field" data-len="14" data-count="5" x="0" y="71"></tspan>
+        <tspan data-type="field" data-len="13" data-count="4" x="0" y="80"></tspan>
       </text>
       <text>
-        <tspan data-type="field" data-len="14" data-count="5" x="0" y="117"></tspan>
+        <tspan data-type="field" data-len="13" data-count="4" x="0" y="130"></tspan>
       </text>
       <text>
-        <tspan data-type="field" data-len="14" data-count="5" x="0" y="163"></tspan>
+        <tspan data-type="field" data-len="13" data-count="4" x="0" y="180"></tspan>
+      </text>
+
+      <text>
+        <tspan data-type="field" data-len="13" data-count="5" x="0" y="25"></tspan>
       </text>
       <text>
-        <tspan data-type="field" data-len="14" data-count="5" x="0" y="209"></tspan>
+        <tspan data-type="field" data-len="13" data-count="5" x="0" y="71"></tspan>
+      </text>
+      <text>
+        <tspan data-type="field" data-len="13" data-count="5" x="0" y="117"></tspan>
+      </text>
+      <text>
+        <tspan data-type="field" data-len="13" data-count="5" x="0" y="163"></tspan>
+      </text>
+      <text>
+        <tspan data-type="field" data-len="13" data-count="5" x="0" y="209"></tspan>
       </text>
     </g>
     <line x1="42.5" y1="125.5" x2="558.5" y2="125.5" stroke="#000000" stroke-linecap="square"></line>

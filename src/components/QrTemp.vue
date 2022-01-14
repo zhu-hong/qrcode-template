@@ -26,7 +26,9 @@ watch(
     nextTick(() => {
       const qr = ins.refs.qrWrap
 
-      renderText(qr.querySelector('[data-type=title]'), props.qrData.title)
+      if(props.qrData.hasTitle) {
+        renderText(qr.querySelector('[data-type=title]'), props.qrData.title)
+      }
 
       if(props.qrData.hasSubTitle) {
         renderText(qr.querySelector('[data-type=subTitle]'), props.qrData.subTitle)

@@ -22,8 +22,11 @@ const loadLogo = (i ,e) => {
 
 <template>
   <div v-for="(qr, i) of qrData" :key="qr.id" class="flex flex-col items-center mb-4">
+    <span class="w-50px h-50px bg-blue-700 rounded-full text-center leading-50px font-bold text-2xl">{{ i + 1 }}</span>
     <QrTemp :qrData="qr" :id="qr.id" class="shadow-2xl shadow-dark-400" />
     
+    <input type="file" class="block" @change="loadLogo(i, $event)" v-if="qr.hasLogo">
+
     <div class="flex my-4">
       <span class="w-30px h-30px rounded cursor-pointer mr-4" :style="{ backgroundColor: qr.bgColor }"></span>
       <el-dropdown v-if="qr.isColor" trigger="click">
@@ -36,7 +39,7 @@ const loadLogo = (i ,e) => {
       </el-dropdown>
       </div>
     
-    <div class="flex my-4">
+    <div class="flex my-4" v-if="qr.hasTitle">
       <span class="w-120px h-40px rounded cursor-pointer mr-4 border-2 grid place-items-center">{{ qr.width + '×' + qr.height }}</span>
       <!-- 竖版 -->
       <el-dropdown v-if="!qr.isLandscape" trigger="click">
@@ -58,7 +61,7 @@ const loadLogo = (i ,e) => {
       </el-dropdown>
     </div>
 
-    <el-input v-model="qr.title" class="w-200px block"></el-input>
+    <el-input v-model="qr.title" class="w-200px block" v-if="qr.hasTitle"></el-input>
     <el-input v-model="qr.subTitle" class="w-200px block" v-if="qr.hasSubTitle"></el-input>
     <div v-for="(_, i) of qr.fields">
       <el-input v-model="qr.fields[i]" class="w-200px"></el-input>
@@ -68,7 +71,6 @@ const loadLogo = (i ,e) => {
       <el-button @click="qr.fields.pop()" :disabled="!qr.fields.length">-</el-button>
       <el-button @click="qr.fields.push('')" :disabled="qr.fields.length === qr.fieldsCount">+</el-button>
     </div>
-    <input type="file" class="block" @change="loadLogo(i, $event)" v-if="qr.hasLogo">
   </div>
 </template>
 
