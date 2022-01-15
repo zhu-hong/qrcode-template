@@ -14,10 +14,8 @@ nextTick(() => {
   const qr = ins.refs.qrWrap
   qrSvg.setAttribute('width', qr.querySelector('[data-type=qr]').getAttribute('width'))
   qrSvg.setAttribute('height', qr.querySelector('[data-type=qr]').getAttribute('height'))
-  // qrSvg.children[1].setAttribute('transform', qr.querySelector('[data-type=qr]').getAttribute('transform'))
-  qrSvg.removeAttribute('class')
   qr.querySelector('[data-type=qr]').parentNode.replaceChild(qrSvg, qr.querySelector('[data-type=qr]'))
-  // document.getElementById(`${props.qrData.id}svg`).remove()
+  qrSvg.removeAttribute('class')
 })
 
 watch(
@@ -63,7 +61,7 @@ watch(
   <div
     ref="qrWrap"
     v-html="qrData.raw"
-    :style="{ width: qrData.width + 'mm', height: qrData.height + 'mm' }"
+    :style="{ width: qrData.width * 3 + 'px', height: qrData.height * 3 + 'px' }"
     v-bind="$attrs"
   ></div>
   <Qr :value="qrData.id" class="hidden" :id="qrData.id + 'svg'" render-as="svg" />

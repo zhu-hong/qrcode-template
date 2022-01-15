@@ -46,5 +46,8 @@ export const renderText = (node: HTMLElement, text: string) => {
   //   node.textContent = text.slice(0, trueLen) + '...'
   //   return
   // }
-  node.textContent = text
+  // node.textContent = text
+
+  const len = Number(node.getAttribute('data-len'))
+  node.textContent = text.padEnd(len, '啊')
 }

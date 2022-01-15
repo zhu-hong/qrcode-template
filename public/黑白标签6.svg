@@ -1,7 +1,7 @@
 <svg width="100%" height="100%" viewBox="0 0 600 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
     <rect fill="#FFFFFF" x="0" y="0" width="600" height="400"></rect>
-    <g transform="translate(389,164)">
+    <g transform="translate(389,175)">
       <image x="0" y="0" width="170" height="170" xlink:href="" data-type="qr"></image>
     </g>
     <text font-family="微软雅黑" font-size="32" font-weight="normal" fill="#000000">
@@ -20,33 +20,33 @@
       </text>
 
       <text>
-        <tspan data-type="field" data-len="13" data-count="2" x="0" y="85"></tspan>
+        <tspan data-type="field" data-len="13" data-count="2" x="0" y="75"></tspan>
       </text>
       <text>
-        <tspan data-type="field" data-len="13" data-count="2" x="0" y="165"></tspan>
-      </text>
-
-      <text>
-        <tspan data-type="field" data-len="13" data-count="3" x="0" y="55"></tspan>
-      </text>
-      <text>
-        <tspan data-type="field" data-len="13" data-count="3" x="0" y="125"></tspan>
-      </text>
-      <text>
-        <tspan data-type="field" data-len="13" data-count="3" x="0" y="195"></tspan>
+        <tspan data-type="field" data-len="13" data-count="2" x="0" y="155"></tspan>
       </text>
 
       <text>
-        <tspan data-type="field" data-len="13" data-count="4" x="0" y="30"></tspan>
+        <tspan data-type="field" data-len="13" data-count="3" x="0" y="45"></tspan>
       </text>
       <text>
-        <tspan data-type="field" data-len="13" data-count="4" x="0" y="80"></tspan>
+        <tspan data-type="field" data-len="13" data-count="3" x="0" y="115"></tspan>
       </text>
       <text>
-        <tspan data-type="field" data-len="13" data-count="4" x="0" y="130"></tspan>
+        <tspan data-type="field" data-len="13" data-count="3" x="0" y="185"></tspan>
+      </text>
+
+      <text>
+        <tspan data-type="field" data-len="13" data-count="4" x="0" y="40"></tspan>
       </text>
       <text>
-        <tspan data-type="field" data-len="13" data-count="4" x="0" y="180"></tspan>
+        <tspan data-type="field" data-len="13" data-count="4" x="0" y="90"></tspan>
+      </text>
+      <text>
+        <tspan data-type="field" data-len="13" data-count="4" x="0" y="140"></tspan>
+      </text>
+      <text>
+        <tspan data-type="field" data-len="13" data-count="4" x="0" y="190"></tspan>
       </text>
 
       <text>

@@ -11,23 +11,21 @@
         <tspan data-type="field" data-len="15" data-count="1" x="200" y="488"></tspan>
       </text>
 
-      <!-- 两个字段 -->
       <text style="dominant-baseline:middle;text-anchor:middle;" font-family="微软雅黑" font-size="22" font-weight="normal" fill="#000000">
-        <tspan data-type="field" data-len="15" data-count="2" x="200" y="444"></tspan>
+        <tspan data-type="field" data-len="15" data-count="2" x="200" y="470"></tspan>
       </text>
       <text style="dominant-baseline:middle;text-anchor:middle;" font-family="微软雅黑" font-size="22" font-weight="normal" fill="#000000">
-        <tspan data-type="field" data-len="15" data-count="2" x="200" y="488"></tspan>
+        <tspan data-type="field" data-len="15" data-count="2" x="200" y="530"></tspan>
       </text>
 
-      <!-- 三个字段 -->
       <text style="dominant-baseline:middle;text-anchor:middle;" font-family="微软雅黑" font-size="22" font-weight="normal" fill="#000000">
-        <tspan data-type="field" data-len="15" data-count="3" x="200" y="444"></tspan>
+        <tspan data-type="field" data-len="15" data-count="3" x="200" y="450"></tspan>
       </text>
       <text style="dominant-baseline:middle;text-anchor:middle;" font-family="微软雅黑" font-size="22" font-weight="normal" fill="#000000">
-        <tspan data-type="field" data-len="15" data-count="3" x="200" y="488"></tspan>
+        <tspan data-type="field" data-len="15" data-count="3" x="200" y="500"></tspan>
       </text>
       <text style="dominant-baseline:middle;text-anchor:middle;" font-family="微软雅黑" font-size="22" font-weight="normal" fill="#000000">
-        <tspan data-type="field" data-len="15" data-count="3" x="200" y="532"></tspan>
+        <tspan data-type="field" data-len="15" data-count="3" x="200" y="550"></tspan>
       </text>
       <g transform="translate(80, 160)">
         <image data-type="qr" x="0" y="0" width="240" height="240" xlink:href=""></image>
