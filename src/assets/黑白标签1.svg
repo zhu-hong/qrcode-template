@@ -1,11 +1,18 @@
 <svg width="100%" height="100%" viewBox="0 0 600 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
     <rect fill="#FFFFFF" x="0" y="0" width="600" height="400"></rect>
+
+    <g transform="translate(380,164)">
+      <image x="0" y="0" width="170" height="170" xlink:href="" data-type="qr"></image>
+    </g>
+
     <text font-family="微软雅黑" font-size="38" font-weight="500" fill="#000000">
       <tspan x="39" y="77" data-type="title" data-max="82" data-len="13"></tspan>
     </text>
-    <g transform="translate(39, 162)" fill="#000000" font-family="微软雅黑" font-size="22" font-weight="normal">
 
+    <line x1="39" y1="120" x2="550" y2="120" stroke="#000000" stroke-linecap="square"></line>
+
+    <g transform="translate(39,162)" fill="#000000" font-family="微软雅黑" font-size="22" font-weight="normal">
       <text>
         <tspan data-type="field" data-len="14" data-max="51" data-count="1" x="0" y="63"></tspan>
       </text>
@@ -39,10 +46,6 @@
       <text>
         <tspan data-type="field" data-len="14" data-max="51" data-count="4" x="0" y="158"></tspan>
       </text>
-    </g>
-    <line x1="42.5" y1="114.5" x2="558.5" y2="114.5" stroke="#000000" stroke-linecap="square"></line>
-    <g transform="translate(380,164)">
-      <image x="0" y="0" width="170" height="170" xlink:href="" data-type="qr"></image>
     </g>
   </g>
 </svg>

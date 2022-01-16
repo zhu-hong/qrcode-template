@@ -1,86 +1,89 @@
 <svg width="100%" height="100%" viewBox="0 0 600 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
     <rect fill="#FFFFFF" x="0" y="0" width="600" height="400" />
-    
-    <text font-family="微软雅黑" font-size="24" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-len="13" data-max="51" data-count="1" x="24.5" y="204"></tspan>
-    </text>
-    
-    <text font-family="微软雅黑" font-size="24" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-len="13" data-max="51" data-count="2" x="24.5" y="180"></tspan>
-    </text>
-    <text font-family="微软雅黑" font-size="24" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-len="13" data-max="51" data-count="2" x="24" y="240"></tspan>
-    </text>
-    
-    <text font-family="微软雅黑" font-size="24" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-len="13" data-max="51" data-count="3" x="24.5" y="154"></tspan>
-    </text>
-    <text font-family="微软雅黑" font-size="24" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-len="13" data-max="51" data-count="3" x="24" y="220"></tspan>
-    </text>
-    <text font-family="微软雅黑" font-size="24" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-len="13" data-max="51" data-count="3" x="24" y="290"></tspan>
-    </text>
-    
-    <text font-family="微软雅黑" font-size="24" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-len="13" data-max="51" data-count="4" x="24.5" y="150"></tspan>
-    </text>
-    <text font-family="微软雅黑" font-size="24" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-len="13" data-max="51" data-count="4" x="24" y="200"></tspan>
-    </text>
-    <text font-family="微软雅黑" font-size="24" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-len="13" data-max="51" data-count="4" x="24" y="250"></tspan>
-    </text>
-    <text font-family="微软雅黑" font-size="24" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-len="13" data-max="51" data-count="4" x="24" y="300"></tspan>
-    </text>
-    
-    <text font-family="微软雅黑" font-size="24" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-len="13" data-max="51" data-count="5" x="24.5" y="120"></tspan>
-    </text>
-    <text font-family="微软雅黑" font-size="24" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-len="13" data-max="51" data-count="5" x="24" y="170"></tspan>
-    </text>
-    <text font-family="微软雅黑" font-size="24" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-len="13" data-max="51" data-count="5" x="24" y="220"></tspan>
-    </text>
-    <text font-family="微软雅黑" font-size="24" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-len="13" data-max="51" data-count="5" x="24" y="270"></tspan>
-    </text>
-    <text font-family="微软雅黑" font-size="24" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-len="13" data-max="51" data-count="5" x="24" y="320"></tspan>
-    </text>
-    
-    <text font-family="微软雅黑" font-size="24" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-len="13" data-max="51" data-count="6" x="24.5" y="114"></tspan>
-    </text>
-    <text font-family="微软雅黑" font-size="24" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-len="13" data-max="51" data-count="6" x="24" y="157"></tspan>
-    </text>
-    <text font-family="微软雅黑" font-size="24" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-len="13" data-max="51" data-count="6" x="24" y="200"></tspan>
-    </text>
-    <text font-family="微软雅黑" font-size="24" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-len="13" data-max="51" data-count="6" x="24" y="243"></tspan>
-    </text>
-    <text font-family="微软雅黑" font-size="24" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-len="13" data-max="51" data-count="6" x="24" y="286"></tspan>
-    </text>
-    <text font-family="微软雅黑" font-size="24" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-len="13" data-max="51" data-count="6" x="24" y="329"></tspan>
-    </text>
-
     <rect data-type="bg" fill="#66383A" x="0" y="0" width="600" height="78"></rect>
     <rect data-type="bg" fill="#66383A" x="0" y="350" width="600" height="50"></rect>
+    
+    <g transform="translate(385, 130)">
+      <image x="0" y="0" width="164" height="164" xlink:href="" data-type="qr"></image>
+    </g>
+
     <text font-family="微软雅黑" font-size="42" font-weight="normal" fill="#FFFFFF"  style="dominant-baseline:middle;text-anchor:middle;">
       <tspan x="300" y="45" data-type="title" data-max="83" data-len="12"></tspan>
     </text>
     <text font-family="微软雅黑" font-size="20" font-weight="normal" fill="#FFFFFF"  style="dominant-baseline:middle;text-anchor:middle;">
       <tspan x="300" y="380" data-type="subTitle" data-max="76" data-len="23"></tspan>
     </text>
-    <g transform="translate(385, 130)">
-      <image x="0" y="0" width="164" height="164" xlink:href="" data-type="qr"></image>
+    
+    <g font-family="微软雅黑" font-size="24" font-weight="normal" fill="#000000">
+      <text>
+        <tspan data-type="field" data-len="13" data-max="51" data-count="1" x="24" y="204"></tspan>
+      </text>
+      
+      <text>
+        <tspan data-type="field" data-len="13" data-max="51" data-count="2" x="24" y="180"></tspan>
+      </text>
+      <text>
+        <tspan data-type="field" data-len="13" data-max="51" data-count="2" x="24" y="240"></tspan>
+      </text>
+      
+      <text>
+        <tspan data-type="field" data-len="13" data-max="51" data-count="3" x="24" y="154"></tspan>
+      </text>
+      <text>
+        <tspan data-type="field" data-len="13" data-max="51" data-count="3" x="24" y="220"></tspan>
+      </text>
+      <text>
+        <tspan data-type="field" data-len="13" data-max="51" data-count="3" x="24" y="290"></tspan>
+      </text>
+      
+      <text>
+        <tspan data-type="field" data-len="13" data-max="51" data-count="4" x="24" y="150"></tspan>
+      </text>
+      <text>
+        <tspan data-type="field" data-len="13" data-max="51" data-count="4" x="24" y="200"></tspan>
+      </text>
+      <text>
+        <tspan data-type="field" data-len="13" data-max="51" data-count="4" x="24" y="250"></tspan>
+      </text>
+      <text>
+        <tspan data-type="field" data-len="13" data-max="51" data-count="4" x="24" y="300"></tspan>
+      </text>
+      
+      <text>
+        <tspan data-type="field" data-len="13" data-max="51" data-count="5" x="24" y="120"></tspan>
+      </text>
+      <text>
+        <tspan data-type="field" data-len="13" data-max="51" data-count="5" x="24" y="170"></tspan>
+      </text>
+      <text>
+        <tspan data-type="field" data-len="13" data-max="51" data-count="5" x="24" y="220"></tspan>
+      </text>
+      <text>
+        <tspan data-type="field" data-len="13" data-max="51" data-count="5" x="24" y="270"></tspan>
+      </text>
+      <text>
+        <tspan data-type="field" data-len="13" data-max="51" data-count="5" x="24" y="320"></tspan>
+      </text>
+      
+      <text>
+        <tspan data-type="field" data-len="13" data-max="51" data-count="6" x="24" y="114"></tspan>
+      </text>
+      <text>
+        <tspan data-type="field" data-len="13" data-max="51" data-count="6" x="24" y="157"></tspan>
+      </text>
+      <text>
+        <tspan data-type="field" data-len="13" data-max="51" data-count="6" x="24" y="200"></tspan>
+      </text>
+      <text>
+        <tspan data-type="field" data-len="13" data-max="51" data-count="6" x="24" y="243"></tspan>
+      </text>
+      <text>
+        <tspan data-type="field" data-len="13" data-max="51" data-count="6" x="24" y="286"></tspan>
+      </text>
+      <text>
+        <tspan data-type="field" data-len="13" data-max="51" data-count="6" x="24" y="329"></tspan>
+      </text>
     </g>
   </g>
 </svg>

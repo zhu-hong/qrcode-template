@@ -1,22 +1,23 @@
-<!-- 有logo 无副标题 1字段 -->
 <svg width="100%" height="100%" viewBox="0 0 400 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <g>
-      <rect fill="#FFFFFF" x="0" y="0" width="400" height="600"></rect>
-      <path data-type="bg" d="M1.99028085,154.547403 C65.0198045,171.788073 131.421902,181 199.999967,181 C269.299931,181 336.377874,171.593111 399.999003,154.000276 L399.999003,154.000276 L400,154 L400,600 L0,600 L0,154 Z" fill="#5EA9C6"></path>
-      <text font-family="微软雅黑" font-size="42" font-weight="500" fill="#5EA9C6" style="dominant-baseline:middle;text-anchor:middle;">
-        <tspan x="200" y="130" data-type="title" data-max="73" data-center="true" data-basic="200" data-span="20" data-len="7"></tspan>
-      </text>
-      <g transform="translate(69, 210)">
-        <rect x="0" y="0" width="262" height="262" rx="14" fill="#FFF"></rect>
-        <g transform="translate(13,13)">
-          <image x="0" y="0" width="235" height="235" xlink:href="" data-type="qr"></image>
-        </g>
+    <rect fill="#FFFFFF" x="0" y="0" width="400" height="600"></rect>
+    <path data-type="bg" d="M1.99028085,154.547403 C65.0198045,171.788073 131.421902,181 199.999967,181 C269.299931,181 336.377874,171.593111 399.999003,154.000276 L399.999003,154.000276 L400,154 L400,600 L0,600 L0,154 Z" fill="#5EA9C6"></path>
+
+    <image x="180" y="30" width="48" height="48" xlink:href="" data-type="logo"></image>
+
+    <g transform="translate(69, 220)">
+      <rect x="0" y="0" width="262" height="262" rx="14" fill="#FFF"></rect>
+      <g transform="translate(15,15)">
+        <image x="0" y="0" width="232" height="232" xlink:href="" data-type="qr"></image>
       </g>
-      <image x="180" y="30" width="48" height="48" xlink:href="" data-type="logo"></image>
-      <text id="885" font-family="微软雅黑" font-size="28" font-weight="500" fill="#FFFFFF" style="dominant-baseline:middle;text-anchor:middle;">
-        <tspan x="200" y="540" data-type="field" data-max="84" data-count="1" data-len="12"></tspan>
-      </text>
     </g>
+
+    <text font-family="微软雅黑" font-size="42" font-weight="500" fill="#5EA9C6" style="dominant-baseline:middle;text-anchor:middle;">
+      <tspan x="200" y="130" data-type="title" data-max="73" data-len="7"></tspan>
+    </text>
+
+    <text id="885" font-family="微软雅黑" font-size="28" font-weight="500" fill="#FFFFFF" style="dominant-baseline:middle;text-anchor:middle;">
+      <tspan x="200" y="540" data-type="field" data-max="84" data-count="1" data-len="12"></tspan>
+    </text>
   </g>
 </svg>

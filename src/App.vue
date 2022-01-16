@@ -21,57 +21,62 @@ const loadLogo = (i ,e) => {
 </script>
 
 <template>
-  <div v-for="(qr, i) of qrData" :key="qr.id" class="flex flex-col items-center mb-4">
-    <span class="w-50px h-50px bg-blue-700 text-white font-mono rounded-full text-center leading-50px font-bold text-2xl transform -translate-x-300px translate-y-100px">{{ i + 1 }}</span>
-    <QrTemp :qrData="qr" :id="qr.id" class="shadow-xl shadow-gray-400" />
-    
-    <input type="file" :id="'logo' + i" class="hidden" @change="loadLogo(i, $event)">
-    <label :for="'logo' + i" class="mt-4 cursor-pointer hover:(text-blue-700 transition)" v-if="qr.hasLogo">上传logo</label>
+  <div v-for="(qr, i) of qrData" :key="qr.id" class="flex justify-center items-center mb-4">
+    <QrTemp :qrData="qr" :id="qr.id" class="shadow-xl shadow-gray-400 mr-4"/>
 
-    <div class="flex my-4">
-      <span class="w-30px h-30px rounded cursor-pointer mr-4" :style="{ backgroundColor: qr.bgColor }"></span>
-      <el-dropdown v-if="qr.isColor" trigger="click">
-        <button class="px-6 py-2 border-1 border-gray-500 rounded active:(bg-red-100 transition)">选择颜色</button>
-        <template #dropdown>
-          <el-dropdown-menu class="flex flex-wrap w-170px justify-around">
-            <span v-for="color of colors" :style="{ backgroundColor: color }" :class="['w-30px h-30px rounded cursor-pointer mb-1', { 'border-3 border-black': qr.bgColor === color }]" @click="qr.bgColor=color"></span>
-          </el-dropdown-menu>
-        </template>
-      </el-dropdown>
+    <div class="flex flex-col w-300px">
+      <input type="file" :id="'logo' + i" class="hidden" @change="loadLogo(i, $event)">
+      <label :for="'logo' + i" class="mt-4 cursor-pointer hover:(text-blue-700 transition)" v-if="qr.hasLogo">上传logo</label>
+
+      <div class="flex my-4" v-if="qr.isColor">
+        <span class="w-30px h-30px rounded cursor-pointer mr-4" :style="{ backgroundColor: qr.bgColor }"></span>
+        <el-dropdown v-if="qr.isColor" trigger="click">
+          <button class="px-6 py-2 border-1 border-gray-500 rounded active:(bg-red-100 transition)">选择颜色</button>
+          <template #dropdown>
+            <el-dropdown-menu class="flex flex-wrap w-170px justify-around">
+              <span v-for="color of colors" :style="{ backgroundColor: color }" :class="['w-30px h-30px rounded cursor-pointer mb-1', { 'border-3 border-black': qr.bgColor === color }]" @click="qr.bgColor=color"></span>
+            </el-dropdown-menu>
+          </template>
+        </el-dropdown>
       </div>
     
-    <div class="flex my-4" v-if="qr.hasTitle">
-      <span class="w-120px h-40px rounded cursor-pointer mr-4 border-2 grid place-items-center">{{ qr.width + '×' + qr.height }}</span>
-      <!-- 竖版 -->
-      <el-dropdown v-if="!qr.isLandscape" trigger="click">
-        <button class="w-120px h-40px border-1 border-gray-500 rounded active:(bg-red-100 transition)">选择尺寸</button>
-        <template #dropdown>
-          <el-dropdown-menu class="flex flex-wrap w-225px justify-around">
-            <span v-for="s of size" :class="['w-100px p-4 mb-2 rounded border-2 cursor-pointer', { 'active-size': qr.width === s[0] }]" @click="qr.width=s[0]; qr.height=s[1]">{{ s[0] + '×' + s[1] }}</span>
-          </el-dropdown-menu>
-        </template>
-      </el-dropdown>
-      <!-- 横版 -->
-      <el-dropdown v-else trigger="click">
-        <button class="w-120px h-40px border-1 border-gray-500 rounded active:(bg-red-100 transition)">选择尺寸</button>
-        <template #dropdown>
-          <el-dropdown-menu class="flex flex-wrap w-225px justify-around">
-            <span v-for="s of size" :class="['w-100px p-4 mb-2 rounded border-2 cursor-pointer', { 'active-size': qr.width === s[1] }]" @click="qr.width=s[1]; qr.height=s[0]">{{ s[1] + '×' + s[0] }}</span>
-          </el-dropdown-menu>
-        </template>
-      </el-dropdown>
+      <div class="flex my-4" v-if="qr.hasTitle">
+        <span class="w-120px h-40px rounded cursor-pointer mr-4 border-2 grid place-items-center">{{ qr.width + '×' + qr.height }}</span>
+        <!-- 竖版 -->
+        <el-dropdown v-if="!qr.isLandscape" trigger="click">
+          <button class="w-120px h-40px border-1 border-gray-500 rounded active:(bg-red-100 transition)">选择尺寸</button>
+          <template #dropdown>
+            <el-dropdown-menu class="flex flex-wrap w-225px justify-around">
+              <span v-for="s of size" :class="['w-100px p-4 mb-2 rounded border-2 cursor-pointer', { 'active-size': qr.width === s[0] }]" @click="qr.width=s[0]; qr.height=s[1]">{{ s[0] + '×' + s[1] }}</span>
+            </el-dropdown-menu>
+          </template>
+        </el-dropdown>
+        <!-- 横版 -->
+        <el-dropdown v-else trigger="click">
+          <button class="w-120px h-40px border-1 border-gray-500 rounded active:(bg-red-100 transition)">选择尺寸</button>
+          <template #dropdown>
+            <el-dropdown-menu class="flex flex-wrap w-225px justify-around">
+              <span v-for="s of size" :class="['w-100px p-4 mb-2 rounded border-2 cursor-pointer', { 'active-size': qr.width === s[1] }]" @click="qr.width=s[1]; qr.height=s[0]">{{ s[1] + '×' + s[0] }}</span>
+            </el-dropdown-menu>
+          </template>
+        </el-dropdown>
+      </div>
+
+      <el-input v-model="qr.title" class="w-200px block" v-if="qr.hasTitle"></el-input>
+
+      <el-input v-model="qr.subTitle" class="w-200px block" v-if="qr.hasSubTitle"></el-input>
+
+      <div v-for="(_, i) of qr.fields">
+        <el-input v-model="qr.fields[i]" class="w-200px"></el-input>
+        <el-button @click="qr.fields.splice(i, 1)">X</el-button>
+      </div>
+
+      <div>
+        <el-button @click="qr.fields.pop()" :disabled="!qr.fields.length">-</el-button>
+        <el-button @click="qr.fields.push('')" :disabled="qr.fields.length === qr.fieldsCount">+</el-button>
+      </div>
     </div>
 
-    <el-input v-model="qr.title" class="w-200px block" v-if="qr.hasTitle"></el-input>
-    <el-input v-model="qr.subTitle" class="w-200px block" v-if="qr.hasSubTitle"></el-input>
-    <div v-for="(_, i) of qr.fields">
-      <el-input v-model="qr.fields[i]" class="w-200px"></el-input>
-      <el-button @click="qr.fields.splice(i, 1)">X</el-button>
-    </div>
-    <div>
-      <el-button @click="qr.fields.pop()" :disabled="!qr.fields.length">-</el-button>
-      <el-button @click="qr.fields.push('')" :disabled="qr.fields.length === qr.fieldsCount">+</el-button>
-    </div>
   </div>
 </template>
 

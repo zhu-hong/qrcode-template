@@ -1,37 +1,37 @@
 <svg width="100%" height="100%" viewBox="0 0 400 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
     <rect data-type="bg" fill="#838276" x="0" y="0" width="400" height="600"></rect>
-    <g transform="translate(22, 122)">
-      <rect x="0" y="0" width="356" height="448" rx="14" fill="#FFF"></rect>
+    <rect x="22" y="122" width="356" height="448" rx="14" fill="#FFF"></rect>
+
+    <g transform="translate(101, 169)">
+      <image data-type="qr" x="0" y="0" width="198" height="198" xlink:href=""></image>
     </g>
 
     <text font-family="微软雅黑" font-size="38" font-weight="500" fill="#FFFFFF"  style="dominant-baseline:middle;text-anchor:middle;">
       <tspan x="200" y="75" data-type="title" data-max="75" data-len="8"></tspan>
     </text>
 
-    <text style="dominant-baseline:middle;text-anchor:middle;" font-family="微软雅黑" font-size="22" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-len="14" data-max="77" data-count="1" x="200" y="470"></tspan>
-    </text>
+    <g style="dominant-baseline:middle;text-anchor:middle;" font-family="微软雅黑" font-size="22" font-weight="normal" fill="#000000">
+      <text>
+        <tspan data-type="field" data-len="14" data-max="77" data-count="1" x="200" y="470"></tspan>
+      </text>
 
-    <text style="dominant-baseline:middle;text-anchor:middle;" font-family="微软雅黑" font-size="22" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-len="14" data-max="77" data-count="2" x="200" y="450"></tspan>
-    </text>
-    <text style="dominant-baseline:middle;text-anchor:middle;" font-family="微软雅黑" font-size="22" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-len="14" data-max="77" data-count="2" x="200" y="500"></tspan>
-    </text>
+      <text>
+        <tspan data-type="field" data-len="14" data-max="77" data-count="2" x="200" y="450"></tspan>
+      </text>
+      <text>
+        <tspan data-type="field" data-len="14" data-max="77" data-count="2" x="200" y="500"></tspan>
+      </text>
 
-    <text style="dominant-baseline:middle;text-anchor:middle;" font-family="微软雅黑" font-size="22" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-len="14" data-max="77" data-count="3" x="200" y="428"></tspan>
-    </text>
-    <text style="dominant-baseline:middle;text-anchor:middle;" font-family="微软雅黑" font-size="22" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-len="14" data-max="77" data-count="3" x="200" y="476"></tspan>
-    </text>
-    <text style="dominant-baseline:middle;text-anchor:middle;" font-family="微软雅黑" font-size="22" font-weight="normal" fill="#000000">
-      <tspan data-type="field" data-len="14" data-max="77" data-count="3" x="200" y="524"></tspan>
-    </text>
-
-    <g transform="translate(101, 169)">
-      <image data-type="qr" x="0" y="0" width="198" height="198" xlink:href=""></image>
+      <text>
+        <tspan data-type="field" data-len="14" data-max="77" data-count="3" x="200" y="428"></tspan>
+      </text>
+      <text>
+        <tspan data-type="field" data-len="14" data-max="77" data-count="3" x="200" y="476"></tspan>
+      </text>
+      <text>
+        <tspan data-type="field" data-len="14" data-max="77" data-count="3" x="200" y="524"></tspan>
+      </text>
     </g>
   </g>
 </svg>

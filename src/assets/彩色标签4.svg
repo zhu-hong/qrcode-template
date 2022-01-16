@@ -1,12 +1,17 @@
 <svg width="100%" height="100%" viewBox="0 0 600 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
     <rect data-type="bg" fill="#2D65B7" x="0" y="0" width="600" height="400"></rect>
+    <rect fill="#FFFFFF" x="16" y="106" width="568" height="278" rx="12"></rect>
+
+    <g transform="translate(435,182)">
+      <image data-type="qr" x="0" y="0" width="126" height="126" xlink:href=""></image>
+    </g>
+
     <text font-family="微软雅黑" font-size="44" font-weight="500" fill="#FFFFFF">
       <tspan x="20" y="70" data-type="title" data-max="88" data-len="12"></tspan>
     </text>
-    <rect fill="#FFFFFF" x="16" y="106" width="568" height="278" rx="12"></rect>
+    
     <g transform="translate(40, 145)" fill="#000000" font-family="微软雅黑" font-size="20" font-weight="normal">
-
       <text>
         <tspan data-type="field" data-len="18" data-max="60" data-count="1" x="0" y="100"></tspan>
       </text>
@@ -56,9 +61,6 @@
       <text>
         <tspan data-type="field" data-len="18" data-max="60" data-count="5" x="0" y="193"></tspan>
       </text>
-    </g>
-    <g transform="translate(435,182)">
-      <image data-type="qr" x="0" y="0" width="126" height="126" xlink:href=""></image>
     </g>
   </g>
 </svg>
