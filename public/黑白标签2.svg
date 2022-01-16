@@ -2,45 +2,45 @@
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
     <rect fill="#FFFFFF" x="0" y="0" width="600" height="400"></rect>
     <text font-family="微软雅黑" font-size="32" font-weight="normal" fill="#000000">
-      <tspan x="39" y="49" data-type="title" data-len="15"></tspan>
+      <tspan x="39" y="49" data-type="title" data-max="80" data-len="15"></tspan>
     </text>
     <text font-family="微软雅黑" font-size="26" font-weight="normal" fill="#000000">
-      <tspan x="39" y="96" data-type="subTitle" data-len="19"></tspan>
+      <tspan x="39" y="96" data-type="subTitle" data-max="82" data-len="19"></tspan>
     </text>
     <g transform="translate(252, 160)" fill="#000000" font-family="微软雅黑" font-size="24" font-weight="normal">
       
       <text>
-        <tspan data-type="field" data-count="1" data-len="12" x="0" y="85"></tspan>
+        <tspan data-type="field" data-max="47" data-count="1" data-len="12" x="0" y="85"></tspan>
       </text>
       
       <text>
-        <tspan data-type="field" data-count="2" data-len="12" x="0" y="55"></tspan>
+        <tspan data-type="field" data-max="47" data-count="2" data-len="12" x="0" y="55"></tspan>
       </text>
       <text>
-        <tspan data-type="field" data-count="2" data-len="12" x="0" y="135"></tspan>
-      </text>
-      
-      <text>
-        <tspan data-type="field" data-count="3" data-len="12" x="0" y="35"></tspan>
-      </text>
-      <text>
-        <tspan data-type="field" data-count="3" data-len="12" x="0" y="95"></tspan>
-      </text>
-      <text>
-        <tspan data-type="field" data-count="3" data-len="12" x="0" y="155"></tspan>
+        <tspan data-type="field" data-max="47" data-count="2" data-len="12" x="0" y="135"></tspan>
       </text>
       
       <text>
-        <tspan data-type="field" data-count="4" data-len="12" x="0" y="25"></tspan>
+        <tspan data-type="field" data-max="47" data-count="3" data-len="12" x="0" y="35"></tspan>
       </text>
       <text>
-        <tspan data-type="field" data-count="4" data-len="12" x="0" y="81"></tspan>
+        <tspan data-type="field" data-max="47" data-count="3" data-len="12" x="0" y="95"></tspan>
       </text>
       <text>
-        <tspan data-type="field" data-count="4" data-len="12" x="0" y="137"></tspan>
+        <tspan data-type="field" data-max="47" data-count="3" data-len="12" x="0" y="155"></tspan>
+      </text>
+      
+      <text>
+        <tspan data-type="field" data-max="47" data-count="4" data-len="12" x="0" y="25"></tspan>
       </text>
       <text>
-        <tspan data-type="field" data-count="4" data-len="12" x="0" y="193"></tspan>
+        <tspan data-type="field" data-max="47" data-count="4" data-len="12" x="0" y="81"></tspan>
+      </text>
+      <text>
+        <tspan data-type="field" data-max="47" data-count="4" data-len="12" x="0" y="137"></tspan>
+      </text>
+      <text>
+        <tspan data-type="field" data-max="47" data-count="4" data-len="12" x="0" y="193"></tspan>
       </text>
     </g>
     <g transform="translate(39,164)">

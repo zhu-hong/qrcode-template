@@ -25,8 +25,8 @@ const loadLogo = (i ,e) => {
     <span class="w-50px h-50px bg-blue-700 text-white font-mono rounded-full text-center leading-50px font-bold text-2xl transform -translate-x-300px translate-y-100px">{{ i + 1 }}</span>
     <QrTemp :qrData="qr" :id="qr.id" class="shadow-xl shadow-gray-400" />
     
-    <input type="file" :id="'logo' + i" class="hidden" @change="loadLogo(i, $event)" v-if="qr.hasLogo">
-    <label :for="'logo' + i" class="mt-4 cursor-pointer hover:(text-blue-700 transition)">上传logo</label>
+    <input type="file" :id="'logo' + i" class="hidden" @change="loadLogo(i, $event)">
+    <label :for="'logo' + i" class="mt-4 cursor-pointer hover:(text-blue-700 transition)" v-if="qr.hasLogo">上传logo</label>
 
     <div class="flex my-4">
       <span class="w-30px h-30px rounded cursor-pointer mr-4" :style="{ backgroundColor: qr.bgColor }"></span>

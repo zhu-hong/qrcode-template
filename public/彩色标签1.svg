@@ -4,10 +4,10 @@
       <rect fill="#FFFFFF" x="0" y="0" width="600" height="400" />
       <rect data-type="bg" x="0" y="161" width="600" height="239" fill="#2B2A6F" />
       <text font-family="微软雅黑" font-size="44" font-weight="500" fill="#000000" >
-        <tspan x="111" y="77" data-type="title" data-len="10"></tspan>
+        <tspan x="111" y="77" data-type="title" data-max="73" data-len="10"></tspan>
       </text>
       <text font-family="微软雅黑" font-size="20" font-weight="normal" fill="#5D5E67">
-        <tspan x="111" y="127" data-type="subTitle" data-len="23"></tspan>
+        <tspan x="111" y="127" data-type="subTitle" data-max="77" data-len="23"></tspan>
       </text>
       <g transform="translate(419, 203)">
         <rect x="0" y="0" width="156" height="156" rx="6" />
@@ -19,53 +19,53 @@
       <g transform="translate(33, 187)" fill="#FFFFFF" font-family="微软雅黑" font-size="20">
 
         <text>
-          <tspan x="0" y="101" data-type="field" data-len="18" data-count="1"></tspan>
+          <tspan x="0" y="101" data-type="field" data-len="18" data-max="60" data-count="1"></tspan>
         </text>
 
         <text>
-          <tspan x="0" y="61" data-type="field" data-len="18" data-count="2"></tspan>
+          <tspan x="0" y="61" data-type="field" data-len="18" data-max="60" data-count="2"></tspan>
         </text>
         <text>
-          <tspan x="0" y="141" data-type="field" data-len="18" data-count="2"></tspan>
-        </text>
-
-        <text>
-          <tspan x="0" y="41" data-type="field" data-len="18" data-count="3"></tspan>
-        </text>
-        <text>
-          <tspan x="0" y="101" data-type="field" data-len="18" data-count="3"></tspan>
-        </text>
-        <text>
-          <tspan x="0" y="161" data-type="field" data-len="18" data-count="3"></tspan>
+          <tspan x="0" y="141" data-type="field" data-len="18" data-max="60" data-count="2"></tspan>
         </text>
 
         <text>
-          <tspan x="0" y="30" data-type="field" data-len="18" data-count="4"></tspan>
+          <tspan x="0" y="41" data-type="field" data-len="18" data-max="60" data-count="3"></tspan>
         </text>
         <text>
-          <tspan x="0" y="80" data-type="field" data-len="18" data-count="4"></tspan>
+          <tspan x="0" y="101" data-type="field" data-len="18" data-max="60" data-count="3"></tspan>
         </text>
         <text>
-          <tspan x="0" y="130" data-type="field" data-len="18" data-count="4"></tspan>
-        </text>
-        <text>
-          <tspan x="0" y="180" data-type="field" data-len="18" data-count="4"></tspan>
+          <tspan x="0" y="161" data-type="field" data-len="18" data-max="60" data-count="3"></tspan>
         </text>
 
         <text>
-          <tspan x="0" y="21" data-type="field" data-len="18" data-count="5"></tspan>
+          <tspan x="0" y="30" data-type="field" data-len="18" data-max="60" data-count="4"></tspan>
         </text>
         <text>
-          <tspan x="0" y="61" data-type="field" data-len="18" data-count="5"></tspan>
+          <tspan x="0" y="80" data-type="field" data-len="18" data-max="60" data-count="4"></tspan>
         </text>
         <text>
-          <tspan x="0" y="101" data-type="field" data-len="18" data-count="5"></tspan>
+          <tspan x="0" y="130" data-type="field" data-len="18" data-max="60" data-count="4"></tspan>
         </text>
         <text>
-          <tspan x="0" y="141" data-type="field" data-len="18" data-count="5"></tspan>
+          <tspan x="0" y="180" data-type="field" data-len="18" data-max="60" data-count="4"></tspan>
+        </text>
+
+        <text>
+          <tspan x="0" y="21" data-type="field" data-len="18" data-max="60" data-count="5"></tspan>
         </text>
         <text>
-          <tspan x="0" y="181" data-type="field" data-len="18" data-count="5"></tspan>
+          <tspan x="0" y="61" data-type="field" data-len="18" data-max="60" data-count="5"></tspan>
+        </text>
+        <text>
+          <tspan x="0" y="101" data-type="field" data-len="18" data-max="60" data-count="5"></tspan>
+        </text>
+        <text>
+          <tspan x="0" y="141" data-type="field" data-len="18" data-max="60" data-count="5"></tspan>
+        </text>
+        <text>
+          <tspan x="0" y="181" data-type="field" data-len="18" data-max="60" data-count="5"></tspan>
         </text>
       </g>
       <g transform="translate(34, 34)">

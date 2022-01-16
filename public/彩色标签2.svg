@@ -3,28 +3,28 @@
     <rect fill="#FFFFFF" x="0" y="0" width="400" height="600"></rect>
     <path data-type="bg" d="M399.999003,318.000276 C336.377874,335.593111 269.299931,345 199.999967,345 C130.700028,345 63.6221067,335.593117 0.000997315636,318.000294 L399.999003,318.000276 Z M400,-1 L400,318 L3.63797881e-12,318 L3.69482223e-12,-1 L400,-1 Z" fill="#DC8C00"></path>
     <text font-family="微软雅黑" font-size="42" font-weight="500" fill="#FFFFFF" style="dominant-baseline:middle;text-anchor:middle;">
-      <tspan x="200" y="97" data-type="title" data-len="7"></tspan>
+      <tspan x="200" y="97" data-type="title" data-max="73" data-len="7"></tspan>
     </text>
 
-    <text font-family="PingFangSC-Medium, PingFang SC" font-size="20" style="dominant-baseline:middle;text-anchor:middle;" font-weight="400" fill="#000000">
-      <tspan data-type="field" data-len="17" data-count="1" x="200" y="510"></tspan>
+    <text font-family="微软雅黑" font-size="20" style="dominant-baseline:middle;text-anchor:middle;" font-weight="400" fill="#000000">
+      <tspan data-type="field" data-len="17" data-max="85" data-count="1" x="200" y="510"></tspan>
     </text>
 
-    <text font-family="PingFangSC-Medium, PingFang SC" font-size="20" style="dominant-baseline:middle;text-anchor:middle;" font-weight="400" fill="#000000">
-      <tspan data-type="field" data-len="17" data-count="2" x="200" y="480"></tspan>
+    <text font-family="微软雅黑" font-size="20" style="dominant-baseline:middle;text-anchor:middle;" font-weight="400" fill="#000000">
+      <tspan data-type="field" data-len="17" data-max="85" data-count="2" x="200" y="480"></tspan>
     </text>
-    <text font-family="PingFangSC-Medium, PingFang SC" font-size="20" style="dominant-baseline:middle;text-anchor:middle;" font-weight="400" fill="#000000">
-      <tspan data-type="field" data-len="17" data-count="2" x="200" y="540"></tspan>
+    <text font-family="微软雅黑" font-size="20" style="dominant-baseline:middle;text-anchor:middle;" font-weight="400" fill="#000000">
+      <tspan data-type="field" data-len="17" data-max="85" data-count="2" x="200" y="540"></tspan>
     </text>
 
-    <text font-family="PingFangSC-Medium, PingFang SC" font-size="20" style="dominant-baseline:middle;text-anchor:middle;" font-weight="400" fill="#000000">
-      <tspan data-type="field" data-len="17" data-count="3" x="200" y="464"></tspan>
+    <text font-family="微软雅黑" font-size="20" style="dominant-baseline:middle;text-anchor:middle;" font-weight="400" fill="#000000">
+      <tspan data-type="field" data-len="17" data-max="85" data-count="3" x="200" y="464"></tspan>
     </text>
-    <text font-family="PingFangSC-Medium, PingFang SC" font-size="20" style="dominant-baseline:middle;text-anchor:middle;" font-weight="400" fill="#000000">
-      <tspan data-type="field" data-len="17" data-count="3" x="200" y="506"></tspan>
+    <text font-family="微软雅黑" font-size="20" style="dominant-baseline:middle;text-anchor:middle;" font-weight="400" fill="#000000">
+      <tspan data-type="field" data-len="17" data-max="85" data-count="3" x="200" y="506"></tspan>
     </text>
-    <text font-family="PingFangSC-Medium, PingFang SC" font-size="20" style="dominant-baseline:middle;text-anchor:middle;" font-weight="400" fill="#000000">
-      <tspan data-type="field" data-len="17" data-count="3" x="200" y="548"></tspan>
+    <text font-family="微软雅黑" font-size="20" style="dominant-baseline:middle;text-anchor:middle;" font-weight="400" fill="#000000">
+      <tspan data-type="field" data-len="17" data-max="85" data-count="3" x="200" y="548"></tspan>
     </text>
 
     <g transform="translate(69, 158)">

@@ -23,18 +23,7 @@ watch(
   () => {
     nextTick(() => {
       const qr = ins.refs.qrWrap
-
-      if(props.qrData.hasTitle) {
-        renderText(qr.querySelector('[data-type=title]'), props.qrData.title)
-      }
-
-      if(props.qrData.hasSubTitle) {
-        renderText(qr.querySelector('[data-type=subTitle]'), props.qrData.subTitle)
-      }
-
-      if(props.qrData.hasLogo) {
-        qr.querySelector('[data-type=logo]').setAttribute('xlink:href', props.qrData.logo)
-      }
+      const wrapperWidth = qr.getBoundingClientRect().width
 
       if(props.qrData.isColor) {
         qr.querySelectorAll('[data-type=bg]').forEach((rect) => {
@@ -42,11 +31,23 @@ watch(
         })
       }
 
+      if(props.qrData.hasLogo) {
+        qr.querySelector('[data-type=logo]').setAttribute('xlink:href', props.qrData.logo)
+      }
+
+      if(props.qrData.hasTitle) {
+        renderText(qr.querySelector('[data-type=title]'), props.qrData.title, wrapperWidth)
+      }
+
+      if(props.qrData.hasSubTitle) {
+        renderText(qr.querySelector('[data-type=subTitle]'), props.qrData.subTitle, wrapperWidth)
+      }
+
       qr.querySelectorAll('[data-type=field]').forEach((tspan) => {
         tspan.textContent = ''
       })
       qr.querySelectorAll(`[data-count='${props.qrData.fields.length}']`).forEach((tspan, i) => {
-        renderText(tspan, props.qrData.fields[i])
+        renderText(tspan, props.qrData.fields[i], wrapperWidth)
       })
     })
   },
