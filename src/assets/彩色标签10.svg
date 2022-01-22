@@ -14,10 +14,12 @@
 
     <text font-family="微软雅黑" font-size="42" font-weight="500" fill="#5EA9C6" style="dominant-baseline:middle;text-anchor:middle;">
       <tspan x="200" y="130" data-type="title" data-max="73" data-len="7"></tspan>
+      <tspan x="200" y="130" data-type="title-placeholder" data-max="73" data-len="7" fill="transparent">.</tspan>
     </text>
 
     <text id="885" font-family="微软雅黑" font-size="28" font-weight="500" fill="#FFFFFF" style="dominant-baseline:middle;text-anchor:middle;">
       <tspan x="200" y="540" data-type="field" data-max="84" data-count="1" data-len="12"></tspan>
+      <tspan x="200" y="540" data-type="field-placeholder1" data-max="84" data-len="12" fill="transparent">.</tspan>
     </text>
   </g>
 </svg>

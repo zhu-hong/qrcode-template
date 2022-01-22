@@ -20,35 +20,35 @@ nextTick(() => {
 
 watch(
   () => props.qrData,
-  () => {
-    nextTick(() => {
-      const qr = ins.refs.qrWrap
-      const wrapperWidth = qr.getBoundingClientRect().width
+  async () => {
+    await nextTick()
+    
+    const qr = ins.refs.qrWrap
+    const wrapperWidth = qr.getBoundingClientRect().width
 
-      if(props.qrData.isColor) {
-        qr.querySelectorAll('[data-type=bg]').forEach((rect) => {
-          rect.setAttribute('fill', props.qrData.bgColor)
-        })
-      }
-
-      if(props.qrData.hasLogo) {
-        qr.querySelector('[data-type=logo]').setAttribute('xlink:href', props.qrData.logo)
-      }
-
-      if(props.qrData.hasTitle) {
-        renderText(qr.querySelector('[data-type=title]'), props.qrData.title, wrapperWidth)
-      }
-
-      if(props.qrData.hasSubTitle) {
-        renderText(qr.querySelector('[data-type=subTitle]'), props.qrData.subTitle, wrapperWidth)
-      }
-
-      qr.querySelectorAll('[data-type=field]').forEach((tspan) => {
-        tspan.textContent = ''
+    if(props.qrData.isColor) {
+      qr.querySelectorAll('[data-type=bg]').forEach((rect) => {
+        rect.setAttribute('fill', props.qrData.bgColor)
       })
-      qr.querySelectorAll(`[data-count='${props.qrData.fields.length}']`).forEach((tspan, i) => {
-        renderText(tspan, props.qrData.fields[i], wrapperWidth)
-      })
+    }
+
+    if(props.qrData.hasLogo) {
+      qr.querySelector('[data-type=logo]').setAttribute('xlink:href', props.qrData.logo)
+    }
+
+    if(props.qrData.hasTitle) {
+      renderText(qr.querySelector('[data-type=title]'), props.qrData.title, wrapperWidth)
+    }
+
+    if(props.qrData.hasSubTitle) {
+      renderText(qr.querySelector('[data-type=subTitle]'), props.qrData.subTitle, wrapperWidth)
+    }
+
+    qr.querySelectorAll('[data-type=field]').forEach((tspan) => {
+      tspan.textContent = ''
+    })
+    qr.querySelectorAll(`[data-count='${props.qrData.fields.length}']`).forEach((tspan, i) => {
+      renderText(tspan, props.qrData.fields[i], wrapperWidth)
     })
   },
   {

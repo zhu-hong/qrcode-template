@@ -10,79 +10,102 @@
 
     <text font-family="微软雅黑" font-size="42" font-weight="normal" fill="#FFFFFF"  style="dominant-baseline:middle;text-anchor:middle;">
       <tspan x="300" y="45" data-type="title" data-max="83" data-len="12"></tspan>
+      <tspan x="300" y="45" data-type="title-placeholder" data-max="83" data-len="12" fill="transparent">.</tspan>
     </text>
     <text font-family="微软雅黑" font-size="20" font-weight="normal" fill="#FFFFFF"  style="dominant-baseline:middle;text-anchor:middle;">
       <tspan x="300" y="380" data-type="subTitle" data-max="76" data-len="23"></tspan>
+      <tspan x="300" y="380" data-type="subTitle-placeholder" data-max="76" data-len="23" fill="transparent">.</tspan>
     </text>
     
     <g font-family="微软雅黑" font-size="24" font-weight="normal" fill="#000000">
       <text>
         <tspan data-type="field" data-len="13" data-max="51" data-count="1" x="24" y="204"></tspan>
+        <tspan data-type="field-placeholder1" data-max="51" x="24" y="204" fill="transparent">.</tspan>
       </text>
       
       <text>
         <tspan data-type="field" data-len="13" data-max="51" data-count="2" x="24" y="180"></tspan>
+        <tspan data-type="field-placeholder2" data-max="51" x="24" y="180" fill="transparent">.</tspan>
       </text>
       <text>
         <tspan data-type="field" data-len="13" data-max="51" data-count="2" x="24" y="240"></tspan>
+        <tspan data-type="field-placeholder2" data-max="51" x="24" y="240" fill="transparent">.</tspan>
       </text>
       
       <text>
         <tspan data-type="field" data-len="13" data-max="51" data-count="3" x="24" y="154"></tspan>
+        <tspan data-type="field-placeholder3" data-max="51" x="24" y="154" fill="transparent">.</tspan>
       </text>
       <text>
         <tspan data-type="field" data-len="13" data-max="51" data-count="3" x="24" y="220"></tspan>
+        <tspan data-type="field-placeholder3" data-max="51" x="24" y="220" fill="transparent">.</tspan>
       </text>
       <text>
         <tspan data-type="field" data-len="13" data-max="51" data-count="3" x="24" y="290"></tspan>
+        <tspan data-type="field-placeholder3" data-max="51" x="24" y="290" fill="transparent">.</tspan>
       </text>
       
       <text>
         <tspan data-type="field" data-len="13" data-max="51" data-count="4" x="24" y="150"></tspan>
+        <tspan data-type="field-placeholder4" data-max="51" x="24" y="150" fill="transparent">.</tspan>
       </text>
       <text>
         <tspan data-type="field" data-len="13" data-max="51" data-count="4" x="24" y="200"></tspan>
+        <tspan data-type="field-placeholder4" data-max="51" x="24" y="200" fill="transparent">.</tspan>
       </text>
       <text>
         <tspan data-type="field" data-len="13" data-max="51" data-count="4" x="24" y="250"></tspan>
+        <tspan data-type="field-placeholder4" data-max="51" x="24" y="250" fill="transparent">.</tspan>
       </text>
       <text>
         <tspan data-type="field" data-len="13" data-max="51" data-count="4" x="24" y="300"></tspan>
+        <tspan data-type="field-placeholder4" data-max="51" x="24" y="300" fill="transparent">.</tspan>
       </text>
       
       <text>
         <tspan data-type="field" data-len="13" data-max="51" data-count="5" x="24" y="120"></tspan>
+        <tspan data-type="field-placeholder5" data-max="51" x="24" y="120" fill="transparent">.</tspan>
       </text>
       <text>
         <tspan data-type="field" data-len="13" data-max="51" data-count="5" x="24" y="170"></tspan>
+        <tspan data-type="field-placeholder5" data-max="51" x="24" y="170" fill="transparent">.</tspan>
       </text>
       <text>
         <tspan data-type="field" data-len="13" data-max="51" data-count="5" x="24" y="220"></tspan>
+        <tspan data-type="field-placeholder5" data-max="51" x="24" y="220" fill="transparent">.</tspan>
       </text>
       <text>
         <tspan data-type="field" data-len="13" data-max="51" data-count="5" x="24" y="270"></tspan>
+        <tspan data-type="field-placeholder5" data-max="51" x="24" y="270" fill="transparent">.</tspan>
       </text>
       <text>
         <tspan data-type="field" data-len="13" data-max="51" data-count="5" x="24" y="320"></tspan>
+        <tspan data-type="field-placeholder5" data-max="51" x="24" y="320" fill="transparent">.</tspan>
       </text>
       
       <text>
         <tspan data-type="field" data-len="13" data-max="51" data-count="6" x="24" y="114"></tspan>
+        <tspan data-type="field-placeholder6" data-max="51" x="24" y="114" fill="transparent">.</tspan>
       </text>
       <text>
         <tspan data-type="field" data-len="13" data-max="51" data-count="6" x="24" y="157"></tspan>
+        <tspan data-type="field-placeholder6" data-max="51" x="24" y="157" fill="transparent">.</tspan>
       </text>
       <text>
         <tspan data-type="field" data-len="13" data-max="51" data-count="6" x="24" y="200"></tspan>
+        <tspan data-type="field-placeholder6" data-max="51" x="24" y="200" fill="transparent">.</tspan>
       </text>
       <text>
         <tspan data-type="field" data-len="13" data-max="51" data-count="6" x="24" y="243"></tspan>
+        <tspan data-type="field-placeholder6" data-max="51" x="24" y="243" fill="transparent">.</tspan>
       </text>
       <text>
         <tspan data-type="field" data-len="13" data-max="51" data-count="6" x="24" y="286"></tspan>
+        <tspan data-type="field-placeholder6" data-max="51" x="24" y="286" fill="transparent">.</tspan>
       </text>
       <text>
         <tspan data-type="field" data-len="13" data-max="51" data-count="6" x="24" y="329"></tspan>
+        <tspan data-type="field-placeholder6" data-max="51" x="24" y="329" fill="transparent">.</tspan>
       </text>
     </g>
   </g>

@@ -8,10 +8,12 @@
 
     <text font-family="微软雅黑" font-size="32" font-weight="normal" fill="#000000">
       <tspan x="39" y="49" data-type="title" data-max="80" data-len="15"></tspan>
+      <tspan x="39" y="49" data-type="title-placeholder" data-max="80" fill="transparent">.</tspan>
     </text>
 
     <text font-family="微软雅黑" font-size="26" font-weight="normal" fill="#000000">
       <tspan x="39" y="100" data-type="subTitle" data-max="82" data-len="19"></tspan>
+      <tspan x="39" y="100" data-type="subTitle-placeholder" data-max="82" fill="transparent">.</tspan>
     </text>
 
     <line x1="42.5" y1="125.5" x2="558.5" y2="125.5" stroke="#000000" stroke-linecap="square"></line>
@@ -19,36 +21,46 @@
     <g transform="translate(252,160)" fill="#000000" font-family="微软雅黑" font-size="24" font-weight="normal">
       <text>
         <tspan data-type="field" data-max="47" data-count="1" data-len="12" x="0" y="85"></tspan>
+        <tspan data-type="field-placeholder1" data-max="47" data-len="12" x="0" y="85" fill="transparent">.</tspan>
       </text>
       
       <text>
         <tspan data-type="field" data-max="47" data-count="2" data-len="12" x="0" y="55"></tspan>
+        <tspan data-type="field-placeholder2" data-max="47" data-len="12" x="0" y="55" fill="transparent">.</tspan>
       </text>
       <text>
         <tspan data-type="field" data-max="47" data-count="2" data-len="12" x="0" y="135"></tspan>
+        <tspan data-type="field-placeholder2" data-max="47" data-len="12" x="0" y="135" fill="transparent">.</tspan>
       </text>
       
       <text>
         <tspan data-type="field" data-max="47" data-count="3" data-len="12" x="0" y="35"></tspan>
+        <tspan data-type="field-placeholder3" data-max="47" data-len="12" x="0" y="35" fill="transparent">.</tspan>
       </text>
       <text>
         <tspan data-type="field" data-max="47" data-count="3" data-len="12" x="0" y="95"></tspan>
+        <tspan data-type="field-placeholder3" data-max="47" data-len="12" x="0" y="95" fill="transparent">.</tspan>
       </text>
       <text>
         <tspan data-type="field" data-max="47" data-count="3" data-len="12" x="0" y="155"></tspan>
+        <tspan data-type="field-placeholder3" data-max="47" data-len="12" x="0" y="155" fill="transparent">.</tspan>
       </text>
       
       <text>
         <tspan data-type="field" data-max="47" data-count="4" data-len="12" x="0" y="25"></tspan>
+        <tspan data-type="field-placeholder4" data-max="47" data-len="12" x="0" y="25" fill="transparent">.</tspan>
       </text>
       <text>
         <tspan data-type="field" data-max="47" data-count="4" data-len="12" x="0" y="81"></tspan>
+        <tspan data-type="field-placeholder4" data-max="47" data-len="12" x="0" y="81" fill="transparent">.</tspan>
       </text>
       <text>
         <tspan data-type="field" data-max="47" data-count="4" data-len="12" x="0" y="137"></tspan>
+        <tspan data-type="field-placeholder4" data-max="47" data-len="12" x="0" y="137" fill="transparent">.</tspan>
       </text>
       <text>
         <tspan data-type="field" data-max="47" data-count="4" data-len="12" x="0" y="193"></tspan>
+        <tspan data-type="field-placeholder4" data-max="47" data-len="12" x="0" y="193" fill="transparent">.</tspan>
       </text>
     </g>
   </g>

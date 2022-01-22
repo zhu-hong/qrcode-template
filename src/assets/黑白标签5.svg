@@ -8,10 +8,12 @@
 
     <text font-family="微软雅黑" font-size="42" font-weight="400" fill="#000000" style="dominant-baseline:middle;text-anchor:middle;">
       <tspan x="200" y="85" data-type="title" data-max="73" data-len="7"></tspan>
+      <tspan x="200" y="85" data-type="title-placeholder" data-max="73" data-len="7" fill="transparent">.</tspan>
     </text>
 
     <text font-family="微软雅黑" font-size="28" font-weight="normal" fill="#000000" style="dominant-baseline:middle;text-anchor:middle;">
       <tspan x="200" y="520" data-type="field" data-max="77" data-count="1" data-len="11"></tspan>
+      <tspan x="200" y="520" data-type="field-placeholder1" data-max="77" data-len="11" fill="transparent">.</tspan>
     </text>
   </g>
 </svg>

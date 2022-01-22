@@ -14,28 +14,35 @@
     
     <text font-family="微软雅黑" font-size="42" font-weight="500" fill="#FFFFFF" style="dominant-baseline:middle;text-anchor:middle;">
       <tspan x="200" y="97" data-type="title" data-max="73" data-len="7"></tspan>
+      <tspan x="200" y="97" data-type="title-placeholder" data-max="73" data-len="7" fill="transparent">.</tspan>
     </text>
 
     <g font-family="微软雅黑" font-size="20" style="dominant-baseline:middle;text-anchor:middle;" font-weight="400" fill="#000000">
       <text>
         <tspan data-type="field" data-len="17" data-max="85" data-count="1" x="200" y="510"></tspan>
+        <tspan data-type="field-placeholder1" data-max="85" x="200" y="510" data-len="17" fill="transparent">.</tspan>
       </text>
 
       <text>
         <tspan data-type="field" data-len="17" data-max="85" data-count="2" x="200" y="480"></tspan>
+        <tspan data-type="field-placeholder2" data-max="85" x="200" y="480" data-len="17" fill="transparent">.</tspan>
       </text>
       <text>
         <tspan data-type="field" data-len="17" data-max="85" data-count="2" x="200" y="540"></tspan>
+        <tspan data-type="field-placeholder2" data-max="85" x="200" y="540" data-len="17" fill="transparent">.</tspan>
       </text>
 
       <text>
         <tspan data-type="field" data-len="17" data-max="85" data-count="3" x="200" y="464"></tspan>
+        <tspan data-type="field-placeholder3" data-max="85" x="200" y="464" data-len="17" fill="transparent">.</tspan>
       </text>
       <text>
         <tspan data-type="field" data-len="17" data-max="85" data-count="3" x="200" y="506"></tspan>
+        <tspan data-type="field-placeholder3" data-max="85" x="200" y="506" data-len="17" fill="transparent">.</tspan>
       </text>
       <text>
         <tspan data-type="field" data-len="17" data-max="85" data-count="3" x="200" y="548"></tspan>
+        <tspan data-type="field-placeholder3" data-max="85" x="200" y="548" data-len="17" fill="transparent">.</tspan>
       </text>
     </g>
   </g>
