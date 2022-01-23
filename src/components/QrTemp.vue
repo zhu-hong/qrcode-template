@@ -1,7 +1,7 @@
 <script setup>
 import { getCurrentInstance, nextTick, watch } from 'vue'
 import Qr from 'qrcode.vue'
-import { renderText } from '../utils'
+import { encodeSvg, renderText } from '../utils'
 
 const props = defineProps({
   qrData: Object,
@@ -9,14 +9,14 @@ const props = defineProps({
 
 const ins = getCurrentInstance()
 
-nextTick(() => {
-  const qrSvg = document.getElementById(`${props.qrData.id}svg`)
-  const qr = ins.refs.qrWrap
-  qrSvg.setAttribute('width', qr.querySelector('[data-type=qr]').getAttribute('width'))
-  qrSvg.setAttribute('height', qr.querySelector('[data-type=qr]').getAttribute('height'))
-  qr.querySelector('[data-type=qr]').parentNode.replaceChild(qrSvg, qr.querySelector('[data-type=qr]'))
-  qrSvg.removeAttribute('class')
-})
+// nextTick(() => {
+//   const qrSvg = document.getElementById(`${props.qrData.id}svg`)
+//   const qr = ins.refs.qrWrap
+//   qrSvg.setAttribute('width', qr.querySelector('[data-type=qr]').getAttribute('width'))
+//   qrSvg.setAttribute('height', qr.querySelector('[data-type=qr]').getAttribute('height'))
+//   qr.querySelector('[data-type=qr]').parentNode.replaceChild(qrSvg, qr.querySelector('[data-type=qr]'))
+//   qrSvg.removeAttribute('class')
+// })
 
 watch(
   () => props.qrData,
@@ -24,6 +24,13 @@ watch(
     await nextTick()
     
     const qr = ins.refs.qrWrap
+
+    const qrSvg = document.getElementById(`${props.qrData.id}svg`)
+    qr.querySelector('[data-type=qr]').setAttribute('xlink:href', 'data:image/svg+xml;utf8,' + encodeSvg(qrSvg.outerHTML))
+    
+    // const uri = new XMLSerializer().serializeToString(document.getElementById(`${props.qrData.id}svg`))
+    // qr.querySelector('[data-type=qr]').setAttribute('xlink:href', 'data:image/svg+xml;base64,' + btoa(uri))
+
     const wrapperWidth = qr.getBoundingClientRect().width
 
     if(props.qrData.isColor) {

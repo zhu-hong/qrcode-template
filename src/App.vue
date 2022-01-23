@@ -9,17 +9,6 @@ const curQr = ref(0)
 const colors = ['#000000', '#254569', '#2B2A6F', '#2D65B7', '#3B75A9', '#67717C', '#838276', '#2F674C', '#148B64', '#586531', '#66383A', '#B52B2B', '#E68448', '#DC8C00', '#F9BD00']
 const size = [[30, 45], [40, 60], [60, 90], [80, 120], [100, 150], [150, 225]]
 
-const loadLogo = (i ,e) => {
-  const file = e.target.files[0]
-
-  const fr = new FileReader()
-  fr.readAsDataURL(file)
-
-  fr.addEventListener('load', (e) => {
-    qrData[i].logo = e.target.result
-  })
-}
-
 const maskVisible = ref(false)
 
 const showMask = (type, text, index) => {
@@ -74,8 +63,7 @@ const hiddenMask = () => {
       <QrTemp :qrData="qr" :id="qr.id" class="shadow-xl shadow-gray-400 mr-4"/>
 
       <div class="flex flex-col w-300px">
-        <input type="file" :id="'logo' + i" class="hidden" @change="loadLogo(i, $event)">
-        <label :for="'logo' + i" class="mt-4 cursor-pointer hover:(text-blue-700 transition)" v-if="qr.hasLogo">上传logo</label>
+        <span class="pt-4">ID:{{ qr.id }}</span>
 
         <div class="flex my-4" v-if="qr.isColor">
           <span class="w-30px h-30px rounded cursor-pointer mr-4" :style="{ backgroundColor: qr.bgColor }"></span>
@@ -89,7 +77,7 @@ const hiddenMask = () => {
           </el-dropdown>
         </div>
       
-        <div class="flex items-center my-4" v-if="qr.hasTitle">
+        <div class="flex items-center mt-2 mb-4" v-if="qr.hasTitle">
           <span class="w-120px h-40px rounded cursor-pointer mr-4 border-2 grid place-items-center">{{ qr.width + '×' + qr.height }}</span>
           <!-- 竖版 -->
           <el-dropdown v-if="!qr.isLandscape" trigger="click">
@@ -129,7 +117,7 @@ const hiddenMask = () => {
     </div>
   </template>
 
-  <div class="w-full flex justify-center mt-4">
+  <div class="w-full flex justify-center mt-4 fixed bottom-40">
     <el-button type="primary" class="!mr-8" @click="curQr--" :disabled="curQr === 0">-</el-button>
     <el-button type="primary" @click="curQr++" :disabled="curQr === qrData.length - 1">+</el-button>
   </div>
